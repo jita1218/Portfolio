@@ -1,0 +1,59 @@
+.skill_container{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+.second_container{
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+    align-items: center;
+    margin: 0 auto;
+    width: 70%;
+}
+
+.s_left{
+    display: flex;
+    flex-direction: column;
+    flex: 0.5;
+    justify-content: center;
+    gap: 4rem;
+ 
+    text-align: justify;
+    padding: 2rem;
+}
+
+.ul_container{
+    display: flex;
+    gap: 4rem;
+    
+    
+}
+
+.h_left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+margin-right: auto;
+margin-left: auto;
+}
+
+
+
+.center{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font: bold;
+    
+}
+
+.h_skills{
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    text-decoration: underline;
+} 
+

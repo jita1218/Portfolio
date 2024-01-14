@@ -1,0 +1,14 @@
+.title{
+    display: flex;
+    justify-content: center;
+    /* border: 1px solid black ; */
+    text-shadow: black;
+    
+    padding: 2rem;
+    
+}
+
+.vertical_components{
+    display: flex;
+    
+}

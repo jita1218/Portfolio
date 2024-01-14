@@ -1,0 +1,97 @@
+.about_container{
+    display: flex;
+    position: relative;
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 1.5rem;
+    
+}
+
+.about_left{
+
+    display: flex;
+    padding: 1rem;
+    flex: 0.7;
+    align-items: center;
+}
+
+.left_icons{
+    display: flex;
+    margin: 2rem;
+    margin-right: 3rem;
+}
+
+.about_right{
+    display: flex;
+    padding: 1rem;
+    flex: 0.3;
+    align-items: center;
+    justify-content: center;
+}
+
+.image_container{
+    display: flex;
+    width: 200px;
+    object-fit: contain;
+    overflow:  hidden;
+}
+
+
+
+.profile_image{
+    border-radius: 30px;
+    width: 200px;
+    animation: zoomInOut 8s ease-in-out infinite 1s;
+}
+
+@keyframes zoomInOut {
+    0%, 100%{
+        transform: scale(1);
+        /* border-radius: 60% 40% 30% 70% 60% 30% 70% 40%; */
+    }
+
+    50%{
+        transform: scale(1.1);
+        /* border-radius: 30% 60% 70% 40% 50% 60% 30% 60%; */
+    }
+}
+
+.say_hello{
+    display: flex;
+    margin-top: 0.7rem;
+    width: 6rem;
+    justify-content: center32;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: black;
+color: white;
+
+}
+
+.say_hello:hover{
+    padding: 10px;
+    border-radius: 8px;
+    background-color: white;
+    color: var(--text-color);
+
+}
+
+.home__description{
+    
+    text-align: justify;
+    
+}
+
+
+
+.home_social{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    gap: 1rem;
+}
+
+.home_social>a{
+    font-size: 25px;
+}
