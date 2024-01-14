@@ -74,6 +74,7 @@ color: white;
     border-radius: 8px;
     background-color: white;
     color: var(--text-color);
+    transition: 400ms;
 
 }
 
@@ -94,4 +95,9 @@ color: white;
 
 .home_social>a{
     font-size: 25px;
+}
+
+.home_social>a:hover{
+   transform: scale(1.5);
+    transition: 400ms;
 }
