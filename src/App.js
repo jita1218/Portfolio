@@ -5,6 +5,7 @@ import About from './components/about/About';
 import Skill from './components/skill/Skill';
 import Qlf from './components/Qlf/Qlf';
 import Contact from './components/contact/Contact';
+import Footer from './components/footer/Footer';
 // Update import statements in your code
 // import skill from './components/skill/Skill';
 
@@ -17,6 +18,7 @@ const App = () => {
     <Skill/>
     <Qlf/>
     <Contact/>
+    <Footer/>
     </>
   )
 }

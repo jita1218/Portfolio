@@ -63,7 +63,7 @@ const Skill = () => {
    <div className="ul_container">
    <ul className='h_left'>
           <li>
-            <h4><h2><GiMusicalNotes />
+            <h4><h2 className='icons'><GiMusicalNotes />
 </h2>Singing</h4>
 <p>Vocalist</p>
             <li>
@@ -74,7 +74,7 @@ const Skill = () => {
      
         </ul>
         <ul>
-          <li><h4> <h2> <img
+          <li><h4> <h2 className='icons'> <img
                     src={dancingIcon}
                     alt="Dancing Icon"
                     style={{ width: '32px', height: '32px' }}  
