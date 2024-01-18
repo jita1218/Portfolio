@@ -5,7 +5,10 @@ import image from './jitu.jpg'
 
 const About = () => {
   return (
+    <>
+  
     <div className='about_container ' id='about'>
+     
       <div className="about_left">
         <div className="left_icons">
         <Social/>
@@ -37,6 +40,10 @@ const About = () => {
         
       </div>
     </div>
+    <div class="devicer">
+      
+    </div>
+    </>
   )
 }
 

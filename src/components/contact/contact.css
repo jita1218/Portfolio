@@ -1,7 +1,8 @@
 .contact {
   display: flex;
   flex-direction: column;
-  background-color: var(--mid-shade);
+  background-color: var(--bg-color);
+  padding-bottom: 2rem;
 }
 
 .title{
@@ -36,6 +37,7 @@
 .email {
   display: flex;
   background-color: var(--bg-color);
+  border: 1px solid black;
   flex-direction: column;
   border-radius: 1rem;
   padding: 7px;
@@ -44,11 +46,16 @@
   width: 69%;
 }
 
+.email:hover{
+  background-color: var(--mid-shade);
+  color: white;
+  cursor: pointer;
+}
 form {
   max-width: 400px;
   margin: 0 auto;
   border-radius: 1rem;
-  background-color: var(--mid-shade);
+  background-color: var(--bg-color);
 }
 
 input,
@@ -66,10 +73,11 @@ textarea {
 }
 
 button {
-  background-color: rgba(0, 0, 0, 0.736);
+  background-color: var(--mid-shade);
   border-radius: 1rem;
 
-  color: white;
+  color: black;
+  border: 1px solid black;
   padding: 10px 15px;
   cursor: pointer;
   font-size: 16px;

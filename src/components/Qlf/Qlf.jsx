@@ -62,6 +62,9 @@ const Qlf = () => {
 </VerticalTimeline>
 
       </div>
+      <div class="devicer">
+      
+    </div>
     </div>
   )
 }

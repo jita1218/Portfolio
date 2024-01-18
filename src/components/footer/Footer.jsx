@@ -3,6 +3,7 @@ import "./footer.css"
 
 const Footer = () => {
   return (
+    <>
     <nav className='footer flex'>
       
       <div className="footer_items">
@@ -38,13 +39,14 @@ const Footer = () => {
                 </a>
             </li>
 
-             
         </ul>
+        
       </div>
+            
 
-    
     </nav>
-
+    <div className='copywrite'><small>jitu2024</small></div>
+</>
   )
 }
 

@@ -92,6 +92,9 @@ const Skill = () => {
       </div>
 
         </div>
+        <div class="devicer">
+      
+    </div>
     </div>
   )
 }

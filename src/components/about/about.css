@@ -65,12 +65,13 @@
     display: flex;
     margin-top: 0.7rem;
     width: 6rem;
-    justify-content: center32;
+    
+    justify-content: center;
     border: 1px solid black;
     padding: 10px;
     border-radius: 8px;
-    background-color: rgba(0, 0, 0, 0.778);
-color: white;
+    background-color: var(--mid-shade);
+color: black;
 
 }
 
@@ -83,6 +84,14 @@ color: white;
 
 }
 
+.devicer {
+    width: 20em;
+    display: block;
+    height: 1.3px;
+    background-color: #4b4b4d;
+    margin: 60px auto 0;
+    margin-bottom: 2rem;
+  }
 .home__description{
     
     text-align: justify;

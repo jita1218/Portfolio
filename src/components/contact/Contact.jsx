@@ -64,7 +64,7 @@ export const Contact = () => {
             <FaWhatsapp />
 
             <h4>Whatsapp</h4>
-            <p>available every time</p>
+            <p>available anytime</p>
             <a
               href="https://wa.me/+918003703865"
               target="_blank"
@@ -111,6 +111,7 @@ export const Contact = () => {
           </form>
         </div>
       </div>
+      
     </div>
   );
 };
