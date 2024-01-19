@@ -2,6 +2,7 @@ import React from 'react'
 import './about.css'
 import Social from '../home/social'
 import image from './jitu.jpg'
+import Resume from './Resume.pdf'
 
 const About = () => {
   return (
@@ -25,7 +26,7 @@ const About = () => {
             my problem solving skills.  </p>
                     </div>
 
-            <a href="#" className="say_hello">Resume</a>
+            <a target="_blank" href={Resume} className="say_hello">Resume</a>
 
         </div>
 

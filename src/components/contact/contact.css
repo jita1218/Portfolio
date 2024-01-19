@@ -75,7 +75,7 @@ textarea {
 button {
   background-color: var(--mid-shade);
   border-radius: 1rem;
-
+  transition: 500ms;
   color: black;
   border: 1px solid black;
   padding: 10px 15px;
