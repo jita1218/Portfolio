@@ -10,6 +10,9 @@ import { TfiWrite } from "react-icons/tfi";
 import { FaPaintBrush } from "react-icons/fa";
 import dancingIcon from './dancing.ico';
 
+import { Tilt } from 'react-tilt'
+
+
 const Skill = () => {
   return (
     
@@ -19,7 +22,7 @@ const Skill = () => {
       </div>
       <div className="second_container">
 
-      <div className="s_left">
+      <Tilt className="s_left">
         <h3 className='h_skills'>Programming Skills</h3>
         
 
@@ -54,11 +57,11 @@ const Skill = () => {
          
         </ul>
         </div>
-      </div>
+      </Tilt>
 
 
 
-      <div className="s_left">
+      <Tilt className="s_left">
       <h3 className='h_skills'>Other Skills</h3>
    <div className="ul_container">
    <ul className='h_left'>
@@ -89,7 +92,7 @@ const Skill = () => {
          
         </ul>
    </div>
-      </div>
+      </Tilt>
 
         </div>
         <div class="devicer">

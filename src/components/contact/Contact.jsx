@@ -5,10 +5,12 @@ import { BiPhoneCall } from "react-icons/bi";
 import { FaWhatsapp } from "react-icons/fa";
 import emailjs from "@emailjs/browser";
 import Social from "../home/social";
+import { Tilt } from 'react-tilt'
+
 
 const Contact = () => {
   const form = useRef();
-
+ 
   const sendEmail = (e) => {
     e.preventDefault();
 
@@ -75,8 +77,9 @@ const Contact = () => {
             </a>
           </div>
         </div>
-
-        <div className="right_contact">
+         
+     
+         <Tilt className="right_contact">
           <form ref={form} onSubmit={sendEmail}>
             {/* <input
             type="text"
@@ -110,7 +113,7 @@ const Contact = () => {
               Submit
             </button>
           </form>
-        </div>
+    </Tilt>
        
       </div>
       <div className="left_icons">
