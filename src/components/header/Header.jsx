@@ -1,8 +1,14 @@
 import React, { useState } from "react";
 import "./header.css";
+import { DarkModeSwitch } from 'react-toggle-dark-mode';
 
 const Header = () => {
-  const [Toggle, showMenu] = useState(false);
+  const [isDarkMode, setDarkMode] = useState(false);
+
+  const toggleDarkMode = (checked) => {
+    setDarkMode(checked);
+  };
+
   return (
     <header className="header">
       <nav className="nav container">
@@ -10,7 +16,7 @@ const Header = () => {
           <h3>Jitu</h3>
         </a>
 
-        <div className={Toggle ? "nav__menu show-menu" : "nav_menu"}>
+        <div className={isDarkMode ? "nav__menu show-menu" : "nav__menu"}>
           <ul className="nav_list grid">
             <li className="nav_item">
               <a href="#" className="nav__link active-link">
@@ -38,13 +44,6 @@ const Header = () => {
               </a>
             </li>
 
-            {/* <li className="nav_item">
-                            <a href="#portfolio" className="nav__link">
-                                <i className="uil uil-scenery nav__icon"></i>
-                                Portfolio
-                            </a>
-                        </li> */}
-
             <li className="nav_item">
               <a href="#contact" className="nav__link">
                 <i className="uil uil-message nav__icon"></i>
@@ -52,16 +51,15 @@ const Header = () => {
               </a>
             </li>
           </ul>
-
-          <i
-            className="uil uil-times nav__close"
-            onClick={() => showMenu(!Toggle)}
-          ></i>
+          
         </div>
-
-        <div className="nav__toggle" onClick={() => showMenu(!Toggle)}>
-          <i className="uil uil-apps"></i>
-        </div>
+        <DarkModeSwitch
+        className="darkicon"
+            style={{ marginBottom: '2rem' }}
+            checked={isDarkMode}
+            onChange={toggleDarkMode}
+            size={30}
+          />
       </nav>
     </header>
   );

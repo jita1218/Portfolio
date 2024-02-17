@@ -15,10 +15,10 @@ const Qlf = () => {
       <VerticalTimeline>
   <VerticalTimelineElement
     className="vertical-timeline-element--work"
-    contentStyle={{ backgroundColor: 'var(--bg-color)', color: 'var(--text-color)' }}
-    contentArrowStyle={{ borderRight: '7px solid  var(--light-shade)' }}
+    contentStyle={{ backgroundColor: 'transparent', color: 'white' }}
+    contentArrowStyle={{ borderRight: '7px solid transparent' }}
     date="2022 - present"
-    iconStyle={{ background: 'var(--dark-shade)', color: 'var(--text-color)' }}
+    iconStyle={{ background: 'transparent', color: 'var(--text-color)' }}
     icon={<FaBookReader />  }
   >
     <h3 className="vertical-timeline-element-title">B.Tech 
@@ -32,10 +32,10 @@ const Qlf = () => {
   </VerticalTimelineElement>
   <VerticalTimelineElement
     className="vertical-timeline-element--work"
-    contentStyle={{ backgroundColor: 'var(--bg-color)', color: 'var(--text-color)' }}
-    contentArrowStyle={{ borderRight: '7px solid  var(--light-shade)' }}
+    contentStyle={{ backgroundColor: 'transparent', color: 'var(--text-color)' }}
+    contentArrowStyle={{ borderRight: '7px solid  transparent' }}
     date="2019 - 2020"
-    iconStyle={{  background: 'var(--dark-shade)', color: 'var(--text-color)' }}
+    iconStyle={{  background: 'transparent', color: 'var(--text-color)' }}
     icon={<FaBookReader />  }
   >
     <h3 className="vertical-timeline-element-title">12th standard</h3>
@@ -46,10 +46,10 @@ const Qlf = () => {
   </VerticalTimelineElement>
   <VerticalTimelineElement
     className="vertical-timeline-element--work"
-    contentStyle={{ backgroundColor: 'var(--bg-color)', color: 'var(--text-color)' }}
-    contentArrowStyle={{ borderRight: '7px solid  var(--mid-shade)' }}
+    contentStyle={{ backgroundColor: 'transparent', color: 'var(--text-color)' }}
+    contentArrowStyle={{ borderRight: '7px solid  transparent' }}
     date="2017 - 2018"
-    iconStyle={{  background: 'var(--dark-shade)', color: 'var(--text-color)' }}
+    iconStyle={{  background: 'transparent', color: 'var(--text-color)' }}
     icon={<FaBookReader />  }
   >
     <h3 className="vertical-timeline-element-title">10th standard</h3>

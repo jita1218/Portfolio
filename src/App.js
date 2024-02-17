@@ -6,14 +6,15 @@ import Skill from './components/skill/Skill';
 import Qlf from './components/Qlf/Qlf';
 import Contact from './components/contact/Contact';
 import Footer from './components/footer/Footer';
-// Update import statements in your code
-// import skill from './components/skill/Skill';
+import SplashSection from './components/splashsection/SplashSection';
+
 
 
 const App = () => {
   return(
     <>
     <Header/>
+    <SplashSection/>
     <About/>
     <Skill/>
     <Qlf/>

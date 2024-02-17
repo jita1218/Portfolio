@@ -7,13 +7,9 @@ import Resume from './Resume.pdf'
 const About = () => {
   return (
     <>
-  
     <div className='about_container ' id='about'>
-     
       <div className="about_left">
-        <div className="left_icons">
-        <Social/>
-                </div>
+      
 
         <div className="left_me_container">
         <div className="left_me">

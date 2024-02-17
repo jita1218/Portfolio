@@ -8,7 +8,6 @@
 }
 
 .about_left{
-
     display: flex;
     padding: 1rem;
     flex: 0.7;
@@ -102,13 +101,14 @@ color: black;
 
 .home_social{
     display: flex;
-    flex-direction: column;
-    padding: 1rem;
-    gap: 1rem;
+    /* flex-direction: ; */
+    /* padding: 1rem; */
+    /* color: white; */
+    gap: 2rem;
 }
 
 .home_social>a{
-    font-size: 25px;
+    font-size: 35px;
 }
 
 .home_social>a:hover{

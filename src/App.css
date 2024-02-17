@@ -28,27 +28,40 @@
   box-sizing: border-box;
   -ms-overflow-style: none;  
   scrollbar-width: none;
-}
+  /* background-image: url(background.jpg);
+  background-size:cover;
+  background-attachment: fixed;  */
+} 
 
 *::-webkit-scrollbar {
   display: none;
+  
 }
 
 html{
   scroll-behavior: smooth;
   overflow-x: hidden;
+  
 }
 
-body,
+body{
+  display: flex;
+  background-image: url(background.jpg);
+  background-size:cover;
+  background-attachment: fixed;
+}
 button,
 input,
 textarea{
   font-family:var(--body-font);
 }
 
-body{
-  background-color: var(--bg-color);
-}
+/* body{
+  /* background-image: url(background.jpg);
+  background-size:cover;
+  background-attachment: fixed; */
+
+/* }  */
 
 
 

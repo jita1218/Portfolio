@@ -4,8 +4,9 @@ import { MdOutlineMail } from "react-icons/md";
 import { BiPhoneCall } from "react-icons/bi";
 import { FaWhatsapp } from "react-icons/fa";
 import emailjs from "@emailjs/browser";
+import Social from "../home/social";
 
-export const Contact = () => {
+const Contact = () => {
   const form = useRef();
 
   const sendEmail = (e) => {
@@ -110,10 +111,14 @@ export const Contact = () => {
             </button>
           </form>
         </div>
+       
       </div>
-      
+      <div className="left_icons">
+        <Social/>
+
+        </div>
     </div>
   );
 };
 
-export default Contact;
+export default Contact
