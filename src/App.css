@@ -1,59 +1,59 @@
-@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Poppins:wght@400;600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans&family=Poppins:wght@400;600&display=swap");
 
-
-:root{
+:root {
   --header-height: 3rem;
-
 
   --body-font: "Poppins", sans-serif;
 
+  --color-bg: #1f1f38;
+  --color-bg-variant: #2c2c6c;
+  --color-primary: #4db5ff;
+  --color-primary-variant: rgba(77, 181, 255, 0.4);
+  --color-white: #fff;
+  --color-light: rgba(255, 255, 255, 0.6);
 
-  --bg-color:#f8f8fa;
-  --text-color:white;
-  --dark-shade:#afafaf;
-  --light-shade:	#e5e6eb;
-  --mid-shade:#d2d4dc;
-  --border-color:#c0c2ce;
-
-  
-
-
+  /* --container-width-lg: 75%;
+  --container-width-md: 86%;
+  --container-width-sm: 90%; */
+  /* --color-cursor: #ff0000; */
+  --transition: all 400ms ease;
 }
 
-
-
-*{
+* {
   margin: 0;
-  padding:0;
+  padding: 0;
   box-sizing: border-box;
-  -ms-overflow-style: none;  
+  -ms-overflow-style: none;
   scrollbar-width: none;
   /* background-image: url(background.jpg);
   background-size:cover;
   background-attachment: fixed;  */
-} 
+}
 
 *::-webkit-scrollbar {
   display: none;
-  
 }
 
-html{
+html {
   scroll-behavior: smooth;
   overflow-x: hidden;
-  
 }
 
-body{
+body {
   display: flex;
-  background-image: url(background.jpg);
-  background-size:cover;
+  /* color: rgb(240, 143, 143); */
+  font-family: "Poppins", sans-serif;
+
+  margin: 0%;
+  background-image: url(blue.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
   background-attachment: fixed;
 }
 button,
 input,
-textarea{
-  font-family:var(--body-font);
+textarea {
+  font-family: var(--body-font);
 }
 
 /* body{
@@ -63,36 +63,27 @@ textarea{
 
 /* }  */
 
-
-
-ul{
+ul {
   list-style: none;
 }
 
-a{
+a {
   text-decoration: none;
   color: black;
 }
 
-button{
+button {
   cursor: pointer;
   border: none;
   outline: none;
 }
 
-img{
+img {
   max-width: 100%;
   height: auto;
 }
 
-.grid{
+.grid {
   display: flex;
   gap: 1.5rem;
 }
-
-
-
-
-
-
-

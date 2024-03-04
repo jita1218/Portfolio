@@ -2,13 +2,26 @@
     display: flex;
     justify-content: center;
     /* border: 1px solid black ; */
-    text-shadow: black;
-    
+    /* text-shadow: black;/ */
+    align-items: center;
+    /* margin-left: 2rem; */
+    text-align: center;
+    /* margin-left: 10rem; */
     padding: 2rem;
+    /* border: 1px solid white; */
     
+}
+
+.qlf{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
 }
 
 .vertical_components{
     display: flex;
-    
+    justify-content: center;
+    align-items: center;
+
 }

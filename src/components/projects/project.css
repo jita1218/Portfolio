@@ -1,0 +1,399 @@
+.project {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  width: 100%;
+  height: 50rem;
+}
+
+.cube1_container {
+  display: flex;
+  width: 18rem;
+  height: 19.3rem;
+  position:absolute;
+  background-image:linear-gradient(
+    var(--color-primary),
+    transparent,
+
+    transparent,
+    var(--color-bg-variant)
+  ),url(jitu.jpg);
+  background-size: cover;
+  color:var(--color-bg-variant);
+  top: 210%;
+  left: 30%;
+ cursor: pointer;
+}
+
+.cube1_container::before {
+  content: "";
+  width: calc(18rem / 6);
+  height: calc(18rem + 21%);
+  position: absolute;
+  background: linear-gradient(
+    transparent,
+    var(--color-primary),
+    transparent
+,
+    var(--color-primary)
+  );
+  top: -15%;
+  left: calc((18rem / 4) * -1 + 8.3%);
+  -webkit-clip-path: polygon(0 0, 100% 13%, 100% 100%, 0 83%);
+  clip-path: polygon(0 0, 100% 13%, 100% 100%, 0 83%);
+  z-index: 99;
+}
+
+
+
+.cube1_container::after {
+  content: "";
+  width: calc(17rem + (18rem / 4) );
+  height: 13%;
+  background: linear-gradient(
+    var(--color-primary),
+    transparent
+
+        ); 
+    /* right: calc((18rem/4)*-1 +20%); */
+     position: absolute;
+  top: calc((18rem / 4) * -1 + 10%);
+  left: calc(18rem / 4 * -1 + 8.3%);
+  -webkit-clip-path: polygon(0 0, 70% 0, 100% 100%, 0 100%);
+  clip-path: polygon(0 0, 70% 0, 100% 100%, 0 100%);
+}
+
+.cube1_container:hover{
+  display: flex;
+  width: 18rem;
+  height: 19.3rem;
+  position:absolute;
+  background-image:url(jitu.jpg);
+  background-color: transparent;
+  background-size: cover;
+  color:var(--color-bg-variant);
+  top: 204%;
+  left: 26%;
+  transition: 300ms;
+}
+
+.cube1_container:hover::after{
+  content: "";
+  width: 0.1rem;
+  height: 0.1rem;
+  /* background: linear-gradient(
+    var(--color-primary),
+    transparent
+
+        );  */
+    /* right: calc((18rem/4)*-1 +20%); */
+     position: absolute;
+  top: calc((18rem / 4) * -1 + 15%);
+  left: calc(18rem / 4 * -1 + 8.3%);
+  -webkit-clip-path: polygon(0 0, 70% 0, 100% 100%, 0 100%);
+  clip-path: polygon(0 0, 70% 0, 100% 100%, 0 100%);
+}
+
+.cube1_container:hover::before{
+  content: "";
+  width: 0.1rem;
+  height: 0.1rem;
+  position: absolute;
+ 
+  top: -15%;
+  left: calc((18rem / 4) * -1 + 8.3%);
+  -webkit-clip-path: polygon(0 0, 100% 13%, 100% 100%, 0 83%);
+  clip-path: polygon(0 0, 100% 13%, 100% 100%, 0 83%);
+  z-index: 99;
+}
+
+.cube2_container {
+  display: flex;
+  width: 18rem;
+  height: 19.3rem;
+  position:absolute;
+  color:var(--color-bg-variant);
+  top: 210%;
+  left: 70%;
+  background-image:linear-gradient(
+    var(--color-primary),
+    transparent,
+
+    transparent,
+    var(--color-bg-variant)
+  ),url(jitu.jpg);
+  background-size: cover;
+
+}
+
+.cube2_container::before {
+  content: "";
+  width: calc(18rem / 6);
+  height: calc(18rem + 21%);
+  position: absolute;
+  background: linear-gradient(
+    transparent,
+    var(--color-primary),
+    transparent
+,
+    var(--color-primary)
+  );
+  top: -15%;
+  left: calc((18rem / 4) * -1 + 8.3%);
+  -webkit-clip-path: polygon(0 0, 100% 13%, 100% 100%, 0 83%);
+  clip-path: polygon(0 0, 100% 13%, 100% 100%, 0 83%);
+  z-index: 99;
+}
+
+.cube2_container::after {
+  content: "";
+  width: calc(17rem + (18rem / 4));
+  height: 13%;
+  background: linear-gradient(
+    var(--color-primary),
+    transparent
+
+        );  position: absolute;
+  top: calc((18rem / 4) * -1 + 10%);
+  left: calc(18rem / 4 * -1 + 8.3%);
+  -webkit-clip-path: polygon(0 0, 70% 0, 100% 100%, 0 100%);
+  clip-path: polygon(0 0, 70% 0, 100% 100%, 0 100%);
+}
+
+.cube2_container:hover{
+  display: flex;
+  width: 18rem;
+  height: 19.3rem;
+  position:absolute;
+  background-image:url(jitu.jpg);
+  background-color: transparent;
+  background-size: cover;
+  color:var(--color-bg-variant);
+  top: 204%;
+  left: 66%;
+  transition: 300ms;
+}
+
+.cube2_container:hover::after{
+  content: "";
+  width: 0.1rem;
+  height: 0.1rem;
+  /* background: linear-gradient(
+    var(--color-primary),
+    transparent
+
+        );  */
+    /* right: calc((18rem/4)*-1 +20%); */
+     position: absolute;
+  top: calc((18rem / 4) * -1 + 15%);
+  left: calc(18rem / 4 * -1 + 8.3%);
+  -webkit-clip-path: polygon(0 0, 70% 0, 100% 100%, 0 100%);
+  clip-path: polygon(0 0, 70% 0, 100% 100%, 0 100%);
+}
+
+.cube2_container:hover::before{
+  content: "";
+  width: 0.1rem;
+  height: 0.1rem;
+  position: absolute;
+ 
+  top: -15%;
+  left: calc((18rem / 4) * -1 + 8.3%);
+  -webkit-clip-path: polygon(0 0, 100% 13%, 100% 100%, 0 83%);
+  clip-path: polygon(0 0, 100% 13%, 100% 100%, 0 83%);
+  z-index: 99;
+}
+.cube3_container {
+  display: flex;
+  width: 18rem;
+  height: 19.3rem;
+  position:absolute;
+  color:var(--color-bg-variant);
+  top: 260%;
+  left: 10%;
+  background-image:linear-gradient(
+    var(--color-primary),
+    transparent,
+
+    transparent,
+    var(--color-bg-variant)
+  ),url(jitu.jpg);
+  background-size: cover;
+
+}
+
+.cube3_container::before {
+  content: "";
+  width: calc(18rem / 6);
+  height: calc(18rem + 21%);
+  position: absolute;
+  background: linear-gradient(
+    transparent,
+    var(--color-primary),
+    transparent
+,
+    var(--color-primary)
+  );
+  top: -15%;
+  left: calc((18rem / 4) * -1 + 8.3%);
+  -webkit-clip-path: polygon(0 0, 100% 13%, 100% 100%, 0 83%);
+  clip-path: polygon(0 0, 100% 13%, 100% 100%, 0 83%);
+  z-index: 99;
+}
+
+
+.cube3_container::after {
+  content: "";
+  width: calc(17rem + (18rem / 4));
+  height: 13%;
+  background: linear-gradient(
+    var(--color-primary),
+    transparent
+
+        );  position: absolute;
+  top: calc((18rem / 4) * -1 + 10%);
+  left: calc(18rem / 4 * -1 + 8.3%);
+  -webkit-clip-path: polygon(0 0, 70% 0, 100% 100%, 0 100%);
+  clip-path: polygon(0 0, 70% 0, 100% 100%, 0 100%);
+}
+
+.cube3_container:hover{
+  display: flex;
+  width: 18rem;
+  height: 19.3rem;
+  position:absolute;
+  background-image:url(jitu.jpg);
+  background-color: transparent;
+  background-size: cover;
+  color:var(--color-bg-variant);
+  top: 254%;
+  left: 6%;
+  transition: 300ms;
+}
+
+.cube3_container:hover::after{
+  content: "";
+  width: 0.1rem;
+  height: 0.1rem;
+  /* background: linear-gradient(
+    var(--color-primary),
+    transparent
+
+        );  */
+    /* right: calc((18rem/4)*-1 +20%); */
+     position: absolute;
+  top: calc((18rem / 4) * -1 + 15%);
+  left: calc(18rem / 4 * -1 + 8.3%);
+  -webkit-clip-path: polygon(0 0, 70% 0, 100% 100%, 0 100%);
+  clip-path: polygon(0 0, 70% 0, 100% 100%, 0 100%);
+}
+
+.cube3_container:hover::before{
+  content: "";
+  width: 0.1rem;
+  height: 0.1rem;
+  position: absolute;
+ 
+  top: -15%;
+  left: calc((18rem / 4) * -1 + 8.3%);
+  -webkit-clip-path: polygon(0 0, 100% 13%, 100% 100%, 0 83%);
+  clip-path: polygon(0 0, 100% 13%, 100% 100%, 0 83%);
+  z-index: 99;
+}
+
+.cube4_container {
+  display: flex;
+  width: 18rem;
+  height: 19.3rem;
+  position:absolute;
+  color:var(--color-bg-variant);
+  top: 260%;
+  left: 50%;
+  background-image:linear-gradient(
+    var(--color-primary),
+    transparent,
+
+    transparent,
+    var(--color-bg-variant)
+  ),url(jitu.jpg);
+  background-size: cover;
+}
+
+.cube4_container::before {
+  content: "";
+  width: calc(18rem / 6);
+  height: calc(18rem + 21%);
+  position: absolute;
+  background: linear-gradient(
+    transparent,
+    var(--color-primary),
+    transparent
+,
+    var(--color-primary)
+  );
+  top: -15%;
+  left: calc((18rem / 4) * -1 + 8.3%);
+  -webkit-clip-path: polygon(0 0, 100% 13%, 100% 100%, 0 83%);
+  clip-path: polygon(0 0, 100% 13%, 100% 100%, 0 83%);
+  z-index: 99;
+}
+
+
+.cube4_container::after {
+  content: "";
+  width: calc(17rem + (18rem / 4));
+  height: 13%;
+  background: linear-gradient(
+    var(--color-primary),
+    transparent
+
+        );  position: absolute;
+  top: calc((18rem / 4) * -1 + 10%);
+  left: calc(18rem / 4 * -1 + 8.3%);
+  -webkit-clip-path: polygon(0 0, 70% 0, 100% 100%, 0 100%);
+  clip-path: polygon(0 0, 70% 0, 100% 100%, 0 100%);
+}
+
+.cube4_container:hover{
+  display: flex;
+  width: 18rem;
+  height: 19.3rem;
+  position:absolute;
+  background-image:url(jitu.jpg);
+  background-color: transparent;
+  background-size: cover;
+  color:var(--color-bg-variant);
+  top: 254%;
+  left: 46%;
+  transition: 300ms;
+}
+
+.cube4_container:hover::after{
+  content: "";
+  width: 0.1rem;
+  height: 0.1rem;
+  /* background: linear-gradient(
+    var(--color-primary),
+    transparent
+
+        );  */
+    /* right: calc((18rem/4)*-1 +20%); */
+     position: absolute;
+  top: calc((18rem / 4) * -1 + 15%);
+  left: calc(18rem / 4 * -1 + 8.3%);
+  -webkit-clip-path: polygon(0 0, 70% 0, 100% 100%, 0 100%);
+  clip-path: polygon(0 0, 70% 0, 100% 100%, 0 100%);
+}
+
+.cube4_container:hover::before{
+  content: "";
+  width: 0.1rem;
+  height: 0.1rem;
+  position: absolute;
+ 
+  top: -15%;
+  left: calc((18rem / 4) * -1 + 8.3%);
+  -webkit-clip-path: polygon(0 0, 100% 13%, 100% 100%, 0 83%);
+  clip-path: polygon(0 0, 100% 13%, 100% 100%, 0 83%);
+  z-index: 99;
+}

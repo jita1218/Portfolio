@@ -37,7 +37,7 @@ const Contact = () => {
     <div className="contact" id="contact">
       <div className="title">
         {" "}
-        <h1>Contacts</h1>
+        <h1 className="h1">Contacts</h1>
       </div>
 
       <div className="contact_container">
@@ -50,6 +50,7 @@ const Contact = () => {
               href="mailto:jitulalita4@gmail.com"
               target="_blank"
               rel="noreferrer"
+              className="h1"
             >
               Send Emails
             </a>
@@ -59,7 +60,8 @@ const Contact = () => {
             <BiPhoneCall />
             <h4>Call</h4>
             <p>not available on working hours</p>
-            <a href="tel:+918003703865" target="_blank" rel="noreferrer">
+            <a href="tel:+918003703865"               className="h1"
+ target="_blank" rel="noreferrer">
               Dial Now
             </a>
           </div>
@@ -69,6 +71,8 @@ const Contact = () => {
             <h4>Whatsapp</h4>
             <p>available anytime</p>
             <a
+                          className="h1"
+
               href="https://wa.me/+918003703865"
               target="_blank"
               rel="noreferrer"
@@ -79,22 +83,9 @@ const Contact = () => {
         </div>
          
      
-         <Tilt className="right_contact">
+         <div  className="right_contact">
           <form ref={form} onSubmit={sendEmail}>
-            {/* <input
-            type="text"
-            name="name"
-            placeholder="Your Full Name"
-            required
-          />
-          <input type="email" name="email" placeholder="Your Email" />
-          <textarea
-            name="message"
-            rows="13"
-            placeholder="Write Your Message"
-            required
-          ></textarea>
-          <button type="submit" className="btn btn-primary"> */}
+           
             <input
               type="text"
               name="from_name"
@@ -113,7 +104,7 @@ const Contact = () => {
               Submit
             </button>
           </form>
-    </Tilt>
+    </div>
        
       </div>
       <div className="left_icons">

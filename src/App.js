@@ -7,6 +7,8 @@ import Qlf from './components/Qlf/Qlf';
 import Contact from './components/contact/Contact';
 import Footer from './components/footer/Footer';
 import SplashSection from './components/splashsection/SplashSection';
+import Bio from './components/Bio/Bio';
+import Projects from './components/projects/Projects';
 
 
 
@@ -14,10 +16,13 @@ const App = () => {
   return(
     <>
     <Header/>
-    <SplashSection/>
+   
     <About/>
     <Skill/>
+    {/* <Bio/> */}
     <Qlf/>
+    {/* <Projects/> */}
+
     <Contact/>
     <Footer/>
     </>

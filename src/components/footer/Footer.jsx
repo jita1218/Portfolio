@@ -10,7 +10,7 @@ const Footer = () => {
       <h2 className='thank_you'>Thank you for visiting</h2>
         <ul className="footer_list flex">
             <li className="footer_logo">
-                <a href="#" className='footer_link active-link'>
+                <a href="#"  className='footer_link active-link'>
                     Back to top
                 </a>
             </li>

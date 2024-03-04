@@ -2,6 +2,8 @@ import React from "react";
 import { FaFacebook } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
+import { FaInstagram } from "react-icons/fa";
+
 
 const Social =() => {
     return(
@@ -14,6 +16,9 @@ const Social =() => {
 
             <a href="https://github.com/jita1218" className="git" target="_blank" rel="noreferrer">
             <FaGithub />
+            </a>
+            <a href="https://jituverma.com" className="git" target="_blank" rel="noreferrer">
+            <FaInstagram />
             </a>
         </div>
     )

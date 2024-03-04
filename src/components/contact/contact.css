@@ -17,7 +17,9 @@
 .contact_container {
   display: flex;
   width: 70%;
-  margin: 0 auto;
+  /* margin: 0 auto; */
+  /* margin-left: 10rem; */
+  /* border: 1px solid red; */
 }
 
 .right_contact {
@@ -42,14 +44,15 @@
 
 .email {
   display: flex;
-  background-color: rgba(30, 95, 124, 0.63);
+  background-color: var(--color-bg-variant);
+  color: var(--color-white);
   /* border: 1px solid black; */
   flex-direction: column;
   border-radius: 1rem;
   padding: 7px;
   margin-bottom: 15px;
   align-items: center;
-    border: 1px solid rgb(76, 162, 193);
+    /* border: 1px solid rgb(76, 162, 193); */
 
   width: 69%;
 }
@@ -58,13 +61,15 @@
   background-color: transparent;
   color: white;
   cursor: pointer;
+  transition: 400ms;
+  transform: scale(0.25rem);
   /* background-color: red; */
 }
 form {
   max-width: 400px;
   margin: 0 auto;
   border-radius: 1rem;
-  border: 1px solid rgb(76, 162, 193);
+  /* border: 1px solid var(--color-bg-variant); */
   /* background-color: var(--bg-color); */
 }
 
@@ -76,7 +81,7 @@ textarea {
   border-radius: 1rem;
   box-sizing: border-box;
   background-color: transparent;
-  border: 1px solid rgb(76, 162, 193);
+  border: 1px solid var(--color-bg-variant);
 }
 
 textarea {
@@ -85,19 +90,19 @@ textarea {
 }
 
 textarea::placeholder{
-  color: black;
+  color: var(--color-light);
 }
 
 input::placeholder{
-  color: black;
+  color: var(--color-light);
 }
 
 button {
-  /* background-color: var(--mid-sh; */
+  background-color: var(--color-primary);
   border-radius: 1rem;
   transition: 500ms;
-  color: black;
-  border: 1px solid black;
+  color: var(--color-bg-variant);
+  /* border: 1px solid black; */
   padding: 10px 15px;
   cursor: pointer;
   font-size: 16px;
@@ -105,10 +110,13 @@ button {
 .left_icons{
   display: flex;
   flex-direction: column;
+  color: var(--color-primary);
+  gap: 5rem;
   /* margin: 2rem;
   margin-right: 3rem; */
 }
 button:hover {
-  background-color: black;
-  color: burlywood;
+  background-color: var(--color-white);
+  color: var(--color-bg-variant);
+  transition: 400ms;
 }
