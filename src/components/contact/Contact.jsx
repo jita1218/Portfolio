@@ -5,7 +5,8 @@ import { BiPhoneCall } from "react-icons/bi";
 import { FaWhatsapp } from "react-icons/fa";
 import emailjs from "@emailjs/browser";
 import Social from "../home/social";
-import { Tilt } from 'react-tilt'
+import { Fade } from "react-awesome-reveal";
+// import { Tilt } from 'react-tilt'
 
 
 const Contact = () => {
@@ -33,10 +34,13 @@ const Contact = () => {
       e.target.reset();
   };
 
-  return (
+  return (<>
+  <Fade>
+  <div class="devicer">
+      
+      </div>
     <div className="contact" id="contact">
       <div className="title">
-        {" "}
         <h1 className="h1">Contacts</h1>
       </div>
 
@@ -50,7 +54,7 @@ const Contact = () => {
               href="mailto:jitulalita4@gmail.com"
               target="_blank"
               rel="noreferrer"
-              className="h1"
+              className="details"
             >
               Send Emails
             </a>
@@ -60,8 +64,8 @@ const Contact = () => {
             <BiPhoneCall />
             <h4>Call</h4>
             <p>not available on working hours</p>
-            <a href="tel:+918003703865"               className="h1"
- target="_blank" rel="noreferrer">
+            <a href="tel:+918003703865" 
+ target="_blank" rel="noreferrer" className="details">
               Dial Now
             </a>
           </div>
@@ -70,12 +74,11 @@ const Contact = () => {
 
             <h4>Whatsapp</h4>
             <p>available anytime</p>
-            <a
-                          className="h1"
-
+            <a 
               href="https://wa.me/+918003703865"
               target="_blank"
               rel="noreferrer"
+              className="details"
             >
               Send Massages
             </a>
@@ -112,6 +115,8 @@ const Contact = () => {
 
         </div>
     </div>
+    </Fade>
+    </>
   );
 };
 

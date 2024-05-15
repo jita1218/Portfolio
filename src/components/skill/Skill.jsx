@@ -1,6 +1,6 @@
 import React from 'react'
 import './skill.css'
-import { MdOutlineMail } from "react-icons/md";
+// import { MdOutlineMail } from "react-icons/md";
 import { FaReact } from "react-icons/fa";
 import { BiLogoFlutter } from "react-icons/bi";
 import { FaJava } from "react-icons/fa";
@@ -15,21 +15,12 @@ import { Fade } from "react-awesome-reveal";
 
 const Skill = () => {
   
-// const defaultOptions = {
-// 	reverse:        false,  // reverse the tilt direction
-// 	max:            20,     // max tilt rotation (degrees)
-// 	perspective:    1000,   // Transform perspective, the lower the more extreme the tilt gets.
-// 	scale:          0.5,    // 2 = 200%, 1.5 = 150%, etc..
-// 	speed:          1000,   // Speed of the enter/exit transition
-// 	transition:     true,   // Set a transition on enter/exit.
-// 	axis:  null,   // What axis should be disabled. Can be X or Y.
-// 	reset:          true,    // If the tilt effect has to be reset on exit.
-// }
+
   return (
-    <>
-    <Fade className="skill_container" id='skills'>
+    <><Fade>
+    <div className="skill_container" id='skills'>
       <div className="center">
-        <h1 className='h1'>Skills</h1>
+        <h1 className='sk'>Skills</h1>
        
       </div>
       <div className="second_container">
@@ -111,6 +102,7 @@ const Skill = () => {
         </div>
         <div class="devicer">
       
+    </div>
     </div>
     </Fade>
     </>

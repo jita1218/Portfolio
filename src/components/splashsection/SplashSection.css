@@ -4,7 +4,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 0;
+  gap: 10;
   margin: 0 auto;
 
   /* relative w-[100%] flex flex-col flex-nowrap items-center justify-center gap-0 sm:gap-8 md:gap-9 lg:gap-10 */
@@ -14,14 +14,12 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  
   text-align: center;
 }
 #canvas-prompt {
-  /* border: 1px solid red;
-    margin-left: 20rem; */
   opacity: 0;
   transition: opacity 1000ms;
+  color: var(--color-primary);
 }
 
 .canvas-arrow {
@@ -31,10 +29,128 @@
 }
 
 .canvas-arrow polygon {
-  fill: hsl(var(--color-primBlue-200));
+  fill: hsl(var(--color-primary));
 }
 
 .canvas {
   width: 100%;
   margin-top: 3px;
+}
+
+
+@media (max-width: 768px) {
+  .splash {
+    display: flex;
+    width: 80%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0;
+    margin: 0 auto;
+  /* border: 1px solid red; */
+    /* relative w-[100%] flex flex-col flex-nowrap items-center justify-center gap-0 sm:gap-8 md:gap-9 lg:gap-10 */
+  }
+  
+  .splash_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    /* border: 1px solid red; */
+    /* margin:  0 0 5rem 5rem ; */
+    width: 45%;
+    margin-right: 60rem;
+  }
+  #canvas-prompt {
+    opacity: 0;
+    transition: opacity 1000ms;
+    color: var(--color-primary);
+  }
+  
+  .canvas-arrow {
+    position: absolute;
+    top: 8rem;
+    border: 1px solid yellow;
+    animation: hero-pointer-bounce-mobile 1s infinite;
+  }
+  
+  .canvas-arrow polygon {
+    fill: hsl(var(--color-primary));
+  }
+  
+  .canvas {
+    width: 100%;
+    margin-top: 3px;
+  }
+}
+
+/* Styles for tablets */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .splash {
+    display: flex;
+    width: 100%;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+    gap: 0;
+    margin: 0 auto;
+  /* border: 1px solid red; */
+    /* relative w-[100%] flex flex-col flex-nowrap items-center justify-center gap-0 sm:gap-8 md:gap-9 lg:gap-10 */
+  }
+  
+  .splash_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* border: 1px solid red; */
+    text-align: center;
+    gap: 1rem;
+    /* margin-left: 2rem; */
+    width: 80%;
+    /* margin: 0 0 5rem 0; */
+    margin-right: 5rem;
+  }
+}
+
+/* Styles for larger screens (desktops) */
+@media (min-width: 1025px) {
+  .splash {
+    display: flex;
+    width: 80%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0;
+    margin: 0 auto;
+  
+    /* relative w-[100%] flex flex-col flex-nowrap items-center justify-center gap-0 sm:gap-8 md:gap-9 lg:gap-10 */
+  }
+  
+  .splash_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  #canvas-prompt {
+    opacity: 0;
+    transition: opacity 1000ms;
+    color: var(--color-primary);
+  }
+  
+  .canvas-arrow {
+    position: absolute;
+    top: 8px;
+    animation: hero-pointer-bounce-mobile 1s infinite;
+  }
+  
+  .canvas-arrow polygon {
+    fill: hsl(var(--color-primary));
+  }
+  
+  .canvas {
+    width: 100%;
+    margin-top: 3px;
+  }
 }

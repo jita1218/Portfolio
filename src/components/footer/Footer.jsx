@@ -4,7 +4,7 @@ import "./footer.css"
 const Footer = () => {
   return (
     <>
-    <nav className='footer flex'>
+    <nav className='footer '>
       
       <div className="footer_items">
       <h2 className='thank_you'>Thank you for visiting</h2>
@@ -28,8 +28,8 @@ const Footer = () => {
             </li>
 
             <li className="footer_logo">
-                <a href="#qualification" className='footer_link active-link'>
-                    Qualification
+                <a href="#projects" className='footer_link active-link'>
+                    Projects
                 </a>
             </li>
 

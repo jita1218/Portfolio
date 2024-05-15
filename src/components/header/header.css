@@ -2,3 +2,23 @@
   width: 100%;
   padding: 0 ;
 }
+
+@media (max-width: 768px) {
+  .header {
+    width: 100%;
+    padding: 0 ;  }
+}
+
+/* Styles for tablets */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .header {
+    width: 100%;
+    padding: 0 ;  }
+}
+
+/* Styles for larger screens (desktops) */
+@media (min-width: 1025px) {
+  .header {
+    width: 100%;
+    padding: 0 ;  }
+}
