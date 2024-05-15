@@ -85,14 +85,15 @@ const Skill = () => {
           className='h2'
                     src={dancingIcon}
                     alt="Dancing Icon"
-                    style={{ width: '32px', height: '32px' }}  
+                    style={{ width: '30px', height: '30px' }}  
                   /></h2>Dancing</h4>
-          <p>Hip-Hop,Bollywood</p>
+          <p>Hip-Hop, Bollywood</p>
             
             <li>
               <h4><h2 className='h2'><FaPaintBrush />
 </h2>Painting</h4>
-<p>water color,wall painting</p></li></li>
+<p>water-color,
+  wall-painting</p></li></li>
          
          
         </ul>
