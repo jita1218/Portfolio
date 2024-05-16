@@ -125,7 +125,7 @@
     transition: 400ms;
 }
 
-@media  (max-width: 768px) {
+@media screen and (max-width: 600px) {
     .about_container{
         display: flex;
         flex-direction: column-reverse;

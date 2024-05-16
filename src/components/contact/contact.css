@@ -124,7 +124,7 @@ button:hover {
   transition: 400ms;
 }
 
-@media (max-width: 768px){
+@media screen and (max-width: 600px){
   .contact {
     display: flex;
     /* width: 1vw; */
