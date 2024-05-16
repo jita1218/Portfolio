@@ -3,7 +3,7 @@
   padding: 0 ;
 }
 
-@media screen and (min-width: 400px) {
+@media screen and (min-width: 400px) and(max-width:662px){
   .header {
     width: 80%;
     padding: 0 ; 
@@ -12,16 +12,3 @@
 }
 
 /* Styles for tablets */
-@media (min-width: 769px) and (max-width: 1024px) {
-  .header {
-    width: 100%;
-    padding: 0 ;  
-  }
-}
-
-/* Styles for larger screens (desktops) */
-@media (min-width: 1025px) {
-  .header {
-    width: 100%;
-    padding: 0 ;  }
-}

@@ -33,7 +33,7 @@
 
   /* background-color: var(--dark-shade); */
 }
-@media screen and (min-width: 400px) {
+@media screen and (min-width: 400px) and (max-width: 662px) {
   .footer {
     width: 30%;
     margin: 0 auto;

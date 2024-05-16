@@ -125,7 +125,7 @@
     transition: 400ms;
 }
 
-@media screen and (min-width: 400px)  {
+@media screen and  (min-width: 400px) and (max-width: 662px)  {
     .about_container{
         display: flex;
         flex-direction: column-reverse;
@@ -226,136 +226,6 @@
         background-color: var(--color-primary);
         margin: 70px 0;
         margin-left: 60rem;
-      }
-    .home__description{
-        
-        text-align: justify;
-        
-    }
-    
-    
-    
-    .home_social{
-        display: flex;
-        /* flex-direction: ; */
-        /* padding: 1rem; */
-        /* color: white; */
-        gap: 5rem;
-        color: var(--color-primary);
-    }
-    
-    .home_social>a{
-        font-size: 35px;
-        color: var(--color-primary);
-    
-    }
-    
-    .home_social>a:hover{
-       transform: scale(1.5);
-        transition: 400ms;
-    }
-}
-@media (min-width: 769px) and (max-width: 1024px){
-    .about_container{
-        display: flex;
-        position: relative;
-        width: 60%;
-        margin: 0 auto;
-        margin-top: 1.5rem;
-        margin-left: 10rem;
-        /* border: 1px solid red; */
-        gap: 2rem;
-        
-    }
-    
-    .about_left{
-        display: flex;
-        padding: 1rem;
-        flex: 0.7;
-        align-items: center;
-        color: var(--color-bg);
-        border-radius: 8px;
-        padding: 20px;
-        background-color:var(--color-primary);
-    }
-    
-    .left_icons{
-        display: flex;
-        margin: 2rem;
-        margin-right: 3rem;
-    }
-    
-    .about_right{
-        display: flex;
-        /* padding: 1rem; */
-        flex: 0.3;
-        align-items: center;
-        justify-content: center;
-        
-    }
-    
-    .image_container{
-        display: flex;
-        width: 200px;
-        object-fit: contain;
-        overflow:  hidden;
-    }
-    
-    .image_container:hover{
-        transform: scale(1.1);
-        transition: 400ms;
-    }
-    
-    
-    
-    .profile_image{
-        border-radius: 30px;
-        width: 200px;
-        animation: zoomInOut 8s ease-in-out infinite 1s;
-    }
-    
-    @keyframes zoomInOut {
-        0%, 100%{
-            transform: scale(1);
-            /* border-radius: 60% 40% 30% 70% 60% 30% 70% 40%; */
-        }
-    
-        50%{
-            transform: scale(1.1);
-            /* border-radius: 30% 60% 70% 40% 50% 60% 30% 60%; */
-        }
-    }
-    
-    .say_hello{
-        display: flex;
-        margin-top: 0.7rem;
-        width: 6rem;
-        
-        justify-content: center;
-        padding: 10px;
-        color: var(--color-white);
-        border-radius: 8px;
-        background-color: var(--color-bg-variant);
-    
-    }
-    
-    .say_hello:hover{
-        padding: 10px;
-        border-radius: 8px;
-        background-color: white;
-        color: var(--text-color);
-        transition: 400ms;
-    
-    }
-    
-    .devicer {
-        width: 20em;
-        display: block;
-        height: 1.3px;
-        background-color: var(--color-primary);
-        margin: 50px 0;
-        margin-left: 20.5rem;
-       
       }
     .home__description{
         

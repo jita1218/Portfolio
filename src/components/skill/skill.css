@@ -85,10 +85,10 @@ margin-left: auto;
     text-decoration: underline;
 } 
 
-@media screen and (min-width: 400px) {
+@media screen and (min-width: 400px) and (max-width: 662px) {
     .skill_container{
         display: flex;
-        /* flex-direction: column; */
+        flex-direction: column;
         padding: 1rem;
         width: 30%;
         /* border: 1px solid white; */
@@ -169,97 +169,6 @@ margin-left: auto;
         flex: 0.2;
         font: bold;
         /* border: 1px solid red; */
-    }
-    
-    .h_skills{
-        display: flex;
-        margin-right: auto;
-        margin-left: auto;
-        text-decoration: underline;
-    } 
-}
-@media (min-width: 769px) and (max-width: 1024px){
-    .skill_container{
-        display: flex;
-        flex-direction: column;
-        /* padding: 1rem; */
-        /* border: 1px solid white; */
-        /* margin-left: 10rem; */
-        
-    }
-    
-    .second_container{
-        display: flex;
-        flex-direction: row;
-        gap: 3rem;
-        align-items: center;
-        margin: 0 auto;
-        width: 72%;
-        margin-left: 8rem;
-        /* border: 1px solid white; */
-    }
-    
-    
-    .s_left{
-        display: flex;
-        flex-direction: column;
-        flex: 0.5;
-        transition: 300ms;
-        justify-content: center;
-        gap: 4rem;
-        scale: 0.5rem;
-        background-color: var(--color-bg-variant);
-    
-        border: 1px solid rgb(76, 162, 193);
-    border-radius: 2rem;
-        text-align: justify;
-        padding: 2rem;
-    }
-    
-    .s_left:hover{
-        background-color: transparent;
-        color: white;
-    }
-    .icons{
-        color: var(--color-primary) ;
-    
-    }
-    .h2{
-        color: var(--color-primary) ;
-        text-align: justify;
-    }
-    .sk{
-        color: var(--color-primary);
-    }
-    .ul_container{
-        display: flex;
-        gap: 4rem;
-        
-        
-    }
-    .fade{
-        color: whitesmoke;
-    }
-    .h_left{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        justify-items: center;
-    margin-right: auto;
-    margin-left: auto;
-    }
-    
-    .h4,
-    .p{
-        color: var(--color-white);
-    }
-    
-    .center{
-        display: flex;
-        justify-content: center;
-        text-align: center;
-        font: bold;
-        
     }
     
     .h_skills{

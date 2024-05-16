@@ -14,7 +14,6 @@ const Footer = () => {
                     Back to top
                 </a>
             </li>
-
             <li className="footer_logo">
                 <a href="#about" className='footer_link active-link'>
                     About
