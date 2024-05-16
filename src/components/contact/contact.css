@@ -124,7 +124,7 @@ button:hover {
   transition: 400ms;
 }
 
-@media screen and (max-width: 600px){
+@media only screen and (min-width: 400px) {
   .contact {
     display: flex;
     /* width: 1vw; */
@@ -139,6 +139,8 @@ button:hover {
       display: flex;
       flex: 0.3;
       font: bold;
+      margin: 0 auto;
+      margin-left: 20rem;
       /* border: 1px solid white; */
   }
   .details{
@@ -148,11 +150,10 @@ button:hover {
     display: flex;
     flex-direction: column;
     flex: 0.7;
-    /* width: -60%; */
+    padding: 1rem;
     margin: 0 auto;
-    margin-left: 1rem;
+    margin-left: 10rem;
     gap: 1rem;
-    /* border: 1px solid red; */
   }
   .devicer {
     width: 15em;
@@ -250,14 +251,19 @@ button:hover {
     cursor: pointer;
     font-size: 16px;
   }
-  /* .left_icons{
+  .left_icons{
     display: flex;
     flex-direction: column;
     color: var(--color-primary);
     /* gap: 5rem; */
     /* margin: 2rem;
-    margin-right: 3rem; */
-  /* }  */
+     */
+    
+ 
+    margin: 0 auto;
+    margin-left: 20rem;
+    /* margin-right: 5rem; */
+  }
   .button:hover {
     background-color: var(--color-white);
     color: var(--color-bg-variant);

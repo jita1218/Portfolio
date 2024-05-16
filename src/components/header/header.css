@@ -3,17 +3,20 @@
   padding: 0 ;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (min-width: 400px) {
   .header {
-    width: 100%;
-    padding: 0 ;  }
+    width: 80%;
+    padding: 0 ; 
+    display: flex;
+  flex-direction: column; }
 }
 
 /* Styles for tablets */
 @media (min-width: 769px) and (max-width: 1024px) {
   .header {
     width: 100%;
-    padding: 0 ;  }
+    padding: 0 ;  
+  }
 }
 
 /* Styles for larger screens (desktops) */

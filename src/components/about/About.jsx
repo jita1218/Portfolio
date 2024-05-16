@@ -33,7 +33,7 @@ const About = () => {
         </div>
       </div>
 
-      <div class="devicer"></div>
+      {/* <div class="devicer"></div> */}
     </>
   );
 };

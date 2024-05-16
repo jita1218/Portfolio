@@ -38,13 +38,13 @@
 }
 
 
-@media screen and (max-width: 600px) {
+@media screen and (min-width: 400px) {
   .splash {
     display: flex;
-    width: 80%;
+    width: 100%;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    /* justify-content: center; */
+    /* align-items: center; */
     gap: 0;
     margin: 0 auto;
   /* border: 1px solid red; */
@@ -53,35 +53,13 @@
   
   .splash_container {
     display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    /* border: 1px solid red; */
-    /* margin:  0 0 5rem 5rem ; */
+  flex-direction: column;
     width: 45%;
-    margin-right: 60rem;
-  }
-  #canvas-prompt {
-    opacity: 0;
-    transition: opacity 1000ms;
-    color: var(--color-primary);
+    margin: 0 auto;
+    margin-left: 7rem;
+    /* margin-right: rem; */
   }
   
-  .canvas-arrow {
-    position: absolute;
-    top: 8rem;
-    border: 1px solid yellow;
-    animation: hero-pointer-bounce-mobile 1s infinite;
-  }
-  
-  .canvas-arrow polygon {
-    fill: hsl(var(--color-primary));
-  }
-  
-  .canvas {
-    width: 100%;
-    margin-top: 3px;
-  }
 }
 
 /* Styles for tablets */

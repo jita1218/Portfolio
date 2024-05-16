@@ -12,10 +12,6 @@
   --color-white: #fff;
   --color-light: rgba(255, 255, 255, 0.6);
 
-  /* --container-width-lg: 75%;
-  --container-width-md: 86%;
-  --container-width-sm: 90%; */
-  /* --color-cursor: #ff0000; */
   --transition: all 400ms ease;
 }
 
@@ -25,9 +21,7 @@
   box-sizing: border-box;
   -ms-overflow-style: none;
   scrollbar-width: none;
-  /* background-image: url(background.jpg);
-  background-size:cover;
-  background-attachment: fixed;  */
+
 }
 
 *::-webkit-scrollbar {
@@ -41,7 +35,6 @@ html {
 
 body {
   display: flex;
-  /* color: rgb(240, 143, 143); */
   font-family: "Poppins", sans-serif;
 
   margin: 0%;
@@ -56,12 +49,6 @@ textarea {
   font-family: var(--body-font);
 }
 
-/* body{
-  /* background-image: url(background.jpg);
-  background-size:cover;
-  background-attachment: fixed; */
-
-/* }  */
 
 ul {
   list-style: none;
@@ -88,3 +75,15 @@ img {
   gap: 1.5rem;
 }
 
+@media screen and (min-width: 400px) and (max-width: 662px) {
+  body {
+    display: flex;
+    font-family: "Poppins", sans-serif;
+  
+    margin: 0%;
+    background-image: url(blue.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+}

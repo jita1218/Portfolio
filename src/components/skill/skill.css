@@ -85,14 +85,14 @@ margin-left: auto;
     text-decoration: underline;
 } 
 
-@media screen and (max-width: 600px){
+@media screen and (min-width: 400px) {
     .skill_container{
         display: flex;
         /* flex-direction: column; */
         padding: 1rem;
         width: 30%;
         /* border: 1px solid white; */
-        /* margin-left: 10rem; */
+        margin-left: 12rem;
         
     }
     

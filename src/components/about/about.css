@@ -125,7 +125,7 @@
     transition: 400ms;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (min-width: 400px)  {
     .about_container{
         display: flex;
         flex-direction: column-reverse;
@@ -135,7 +135,7 @@
         gap: 3rem;
         margin: 0 auto;
         margin-top: 1.5rem;
-        margin-left: 3rem;
+        margin-left: 15rem;
         
     }
     
@@ -224,8 +224,8 @@
         display: block;
         height: 1.3px;
         background-color: var(--color-primary);
-        margin: 50px 0;
-        margin-left: 7.5rem;
+        margin: 70px 0;
+        margin-left: 60rem;
       }
     .home__description{
         

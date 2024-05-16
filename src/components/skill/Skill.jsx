@@ -101,10 +101,11 @@ const Skill = () => {
       </Tilt>
 
         </div>
-        <div class="devicer">
+
+    </div>
+    {/* <div class="devicer">
       
-    </div>
-    </div>
+      </div> */}
     </Fade>
     </>
   )
