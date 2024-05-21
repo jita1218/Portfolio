@@ -110,12 +110,13 @@ const Contact = () => {
     </div>
        
       </div>
-      <div className="left_icons">
-        <Social/>
-
-        </div>
+      
     </div>
+    
     </Fade>
+    <div className="left_icons">
+        <Social/>
+        </div>
     </>
   );
 };

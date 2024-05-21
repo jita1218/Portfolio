@@ -92,8 +92,7 @@ const Skill = () => {
             <li>
               <h4><h2 className='h2'><FaPaintBrush />
 </h2>Painting</h4>
-<p>water-color,
-  wall-painting</p></li></li>
+<p>water color,wall painting</p></li></li>
          
          
         </ul>

@@ -85,14 +85,13 @@ margin-left: auto;
     text-decoration: underline;
 } 
 
-@media screen and (min-width: 360px) and (max-width: 740px) {
+@media screen and (max-width: 600px) {
     .skill_container{
         display: flex;
         flex-direction: column;
         padding: 1rem;
-        width: 30%;
-        /* border: 1px solid white; */
-        margin-left: 12rem;
+        width: 20%;
+        margin-left: 5rem;
         
     }
     
@@ -122,7 +121,7 @@ margin-left: auto;
     
         border: 1px solid rgb(76, 162, 193);
     border-radius: 2rem;
-        text-align: justify;
+        text-align: center;
         /* padding: 2rem; */
     }
     

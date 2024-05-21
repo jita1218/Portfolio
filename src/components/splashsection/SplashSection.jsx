@@ -12,11 +12,11 @@ SplashSection.propTypes = {
 };
 
 function UseHero({ message, isDarkMode, isErrorMode }) {
-  const displayCanvasPrompt = useRef(true);
+  // const displayCanvasPrompt = useRef(true);
   const animationId = useRef();
 
   useEffect(() => {
-    const canvasPrompt = document.getElementById("canvas-prompt");
+    // const canvasPrompt = document.getElementById("canvas-prompt");
     // const canvasArrow = document.getElementById('canvas-arrow');
     const fps = 60;
     const interval = Math.floor(1000 / fps);
@@ -320,12 +320,6 @@ function UseHero({ message, isDarkMode, isErrorMode }) {
           this.finalSize;
 
         if (this.finalX + 2 >= this.currX && this.finalY + 2 >= this.currY) {
-          // Some particles may happen to be within 2px of the place where they should go, this helps conform sizes
-          if (displayCanvasPrompt.current) {
-            displayCanvasPrompt.current = false;
-            canvasPrompt.style.opacity = 1;
-            // canvasArrow.style.opacity = 1;
-          }
 
           this.currSize = heroCanvas.letterParticleSize;
           this.ease = Math.random() * 0.015 + 0.02; //Math.random() * 0.01 + 0.02;
@@ -400,7 +394,6 @@ function UseHero({ message, isDarkMode, isErrorMode }) {
         }
 
         if (!isSkipGetFont) {
-          // Need to run this synchronously to pick up custom font for canvas. Thanks a lot Turnstile library
           await this.getFont();
         }
 
@@ -481,9 +474,7 @@ function UseHero({ message, isDarkMode, isErrorMode }) {
           heroCanvas.height
         ).data;
         heroCanvas.ctx.clearRect(0, 0, heroCanvas.width, heroCanvas.height);
-        // let ccc = 0; //Debugging
 
-        // both these loop had this.gap at end of foor loop declare
         for (
           let y = 0;
           y < heroCanvas.height;
@@ -498,14 +489,12 @@ function UseHero({ message, isDarkMode, isErrorMode }) {
             const alpha = pixels[index + 3];
 
             if (alpha > 0) {
-              // ccc++;//Debugging
               const red = pixels[index];
               const green = pixels[index + 1];
               const blue = pixels[index + 2];
               const color = `rgb(${red}, ${green}, ${blue})`;
 
               this.particles.push(new Particle(this, x, y, color));
-              // this.particles.push(new Particle(this, x, y, color, ccc)); //Debugging
             }
           }
         }
@@ -564,10 +553,7 @@ function UseHero({ message, isDarkMode, isErrorMode }) {
 
       animationId.current = window.requestAnimationFrame(animate);
     }
-    // function animate() {
-    //     requestAnimationFrame(animate);
-    //     effect.render();
-    // }
+
     function isNextFrame(timestamp) {
       const currentTime = timestamp;
       const deltaTime = currentTime - previousTime;
@@ -582,9 +568,7 @@ function UseHero({ message, isDarkMode, isErrorMode }) {
     }
 
     function resetCanvas() {
-      displayCanvasPrompt.current = true;
-      canvasPrompt.style.opacity = 0;
-      // canvasArrow.style.opacity = 0;
+
 
       heroCanvas.initializeCanvas();
       globe.initializeGlobe(heroCanvas.width, heroCanvas.height);
@@ -630,7 +614,7 @@ export default function SplashSection({
   return (
     <div className="splash">
       <div className="splash_container">
-        <h3 id="canvas-prompt">Hover Over Letters</h3>
+        {/* <h3 id="canvas-prompt">Hover Over Letters</h3> */}
 
         <canvas
           id="splash-intro"

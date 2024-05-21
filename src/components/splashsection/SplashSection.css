@@ -38,26 +38,21 @@
 }
 
 
-@media screen and (min-width: 360px) and (max-width: 740px) {
+@media screen and (max-width :600px) {
   .splash {
     display: flex;
-    width: 100%;
-    flex-direction: column;
-    /* justify-content: center; */
-    /* align-items: center; */
+    /* width: 30%; */
     gap: 0;
     margin: 0 auto;
-  /* border: 1px solid red; */
-    /* relative w-[100%] flex flex-col flex-nowrap items-center justify-center gap-0 sm:gap-8 md:gap-9 lg:gap-10 */
-  }
+ }
   
   .splash_container {
     display: flex;
-  flex-direction: column;
-    width: 45%;
+    width: 40%;
+    height: 100vh;
     margin: 0 auto;
-    margin-left: 6rem;
-    /* margin-right: rem; */
+    /* text-align: justify; */
+/* border: 1px solid red; */
   }
   
 }
