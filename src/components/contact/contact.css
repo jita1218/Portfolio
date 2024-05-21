@@ -78,6 +78,7 @@ input,
 textarea {
   width: 100%;
   padding: 10px;
+  color: white;
   margin-bottom: 15px;
   border-radius: 1rem;
   box-sizing: border-box;
@@ -125,7 +126,7 @@ button:hover {
   transition: 400ms;
 }
 
-@media  screen and (min-width: 400px) and (max-width:662px)  {
+@media  screen and (min-width: 360px) and (max-width: 740px)  {
   .contact {
     display: flex;
     /* width: 1vw; */
@@ -223,6 +224,7 @@ button:hover {
     width: 100%;
     padding: 10px;
     margin-bottom: 15px;
+    /* color: white; */
     border-radius: 1rem;
     box-sizing: border-box;
     background-color: transparent;

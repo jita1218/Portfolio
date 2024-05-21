@@ -1,8 +1,7 @@
 import React from "react";
 import "./about.css";
-import Social from "../home/social";
 import image from "./jitu.jpg";
-import Resume from "./Resume.pdf";
+import Resume from "./jitu resume.pdf";
 
 const About = () => {
   return (
@@ -19,7 +18,7 @@ const About = () => {
                 trying to improve my problem solving skills.{" "}
               </p>
             </div>
-
+            
             <a target="_blank" href={Resume} className="say_hello">
               Resume
             </a>
@@ -33,7 +32,6 @@ const About = () => {
         </div>
       </div>
 
-      {/* <div class="devicer"></div> */}
     </>
   );
 };
