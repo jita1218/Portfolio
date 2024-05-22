@@ -26,6 +26,7 @@
 
 *::-webkit-scrollbar {
   display: none;
+
 }
 
 html {
@@ -36,54 +37,60 @@ html {
 body {
   display: flex;
   font-family: "Poppins", sans-serif;
-
-  margin: 0%;
+  margin: 0;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  padding: 0;
   background-image: url(blue.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
+  background-position: center;
 }
 button,
 input,
 textarea {
   font-family: var(--body-font);
+
 }
 
 
 ul {
   list-style: none;
+
 }
 
 a {
   text-decoration: none;
-  color: black;
+  color: white;
+
 }
 
 button {
   cursor: pointer;
   border: none;
   outline: none;
+
 }
 
-img {
+ img {
   max-width: 100%;
   height: auto;
-}
+
+} 
 
 .grid {
   display: flex;
   gap: 1.5rem;
+
 }
 
-@media screen and (min-width: 400px) and (max-width: 662px) {
-  body {
-    display: flex;
-    font-family: "Poppins", sans-serif;
-  
-    margin: 0%;
+/* @media screen and (max-width: 600px){
+  body{
     background-image: url(blue.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-  }
-}
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  } */
+/* } */

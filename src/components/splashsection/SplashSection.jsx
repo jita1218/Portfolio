@@ -12,12 +12,12 @@ SplashSection.propTypes = {
 };
 
 function UseHero({ message, isDarkMode, isErrorMode }) {
-  // const displayCanvasPrompt = useRef(true);
+  const displayCanvasPrompt = useRef(true);
   const animationId = useRef();
 
   useEffect(() => {
-    // const canvasPrompt = document.getElementById("canvas-prompt");
-    // const canvasArrow = document.getElementById('canvas-arrow');
+    const canvasPrompt = document.getElementById("canvas-prompt");
+    const canvasArrow = document.getElementById('canvas-arrow');
     const fps = 60;
     const interval = Math.floor(1000 / fps);
     let previousTime = performance.now();
@@ -614,7 +614,7 @@ export default function SplashSection({
   return (
     <div className="splash">
       <div className="splash_container">
-        {/* <h3 id="canvas-prompt">Hover Over Letters</h3> */}
+        <h3 id="canvas-prompt">Hover Over Letters</h3>
 
         <canvas
           id="splash-intro"

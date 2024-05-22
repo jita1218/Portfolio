@@ -15,7 +15,7 @@ import Projects from './components/projects/Projects';
 const App = () => {
   return(
     <>
-    {/* <Header/> */}
+    <Header/>
    
     <About/>
     <Skill/>
