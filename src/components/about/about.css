@@ -133,11 +133,15 @@
         flex-direction: column-reverse;
         position: relative;
         /* border: 1px solid red; */
-        width: 100%;
+        width: 90%;
+        margin: 0 auto;
+        
+        box-sizing: content-box;
+        /* height: 20%; */
+/* margin-right: 5rem; */
         justify-content: center;
         align-items: center;
         gap: 3rem;
-        margin: 0 auto;
         margin-top: 1rem;
         /* margin-left: 5rem; */
         
@@ -147,24 +151,24 @@
         display: flex;
         padding: 1rem;
         flex: 0.7;
-        align-items: center;
-        justify-items: center;
+        /* align-items: center; */
         margin: 0 auto;
-        justify-content: center;
         text-align: justify;
         color: var(--color-bg);
         border-radius: 8px;
+        /* box-sizing: content-box; */
+
         /* padding: 20px; */
-        /* border: 1px solid white; */
-        width: 90%;
+        border: 1px solid white;
+        /* width: 100%; */
         background-color:var(--color-primary);
     }
     
-    .left_icons{
+    /* .left_icons{
         display: flex;
         margin: 2rem;
         margin-right: 3rem;
-    }
+    } */
     
     .about_right{
         display: flex;
@@ -178,7 +182,7 @@
     
     .image_container{
         display: flex;
-        width: 200px;
+        width: 12.5rem;
         object-fit: contain;
         overflow:  hidden;
     }
@@ -230,39 +234,10 @@
     
     }
     
-    .devicer {
-        width: 15em;
-        display: block;
-        height: 1.3px;
-        background-color: var(--color-primary);
-        margin: 70px 0;
-        margin-left: 60rem;
-      }
     .home__description{
         
         text-align: justify;
+
         
-    }
-    
-    
-    
-    .home_social{
-        display: flex;
-        /* flex-direction: ; */
-        /* padding: 1rem; */
-        /* color: white; */
-        gap: 5rem;
-        color: var(--color-primary);
-    }
-    
-    .home_social>a{
-        font-size: 35px;
-        color: var(--color-primary);
-    
-    }
-    
-    .home_social>a:hover{
-       transform: scale(1.5);
-        transition: 400ms;
     }
 }

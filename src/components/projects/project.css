@@ -338,8 +338,9 @@ var(--color-primary-variant)
     display: flex;
     height: 3rem;
 /* left: 20%; */
-width: 30rem;
-margin-left: 0.25rem;
+margin: 0 auto;
+width: 20rem;
+/* margin-left: 0.25rem; */
 font: bold;
   }
   .pr{
@@ -360,8 +361,8 @@ font: bold;
     ),url(yoga.png);
     background-size: cover;
     color:var(--color-bg-variant);
-    top: 290%;
-    left: 20%;
+    top: 300%;
+    left: 15%;
    cursor: pointer;
   }
   
@@ -410,8 +411,8 @@ font: bold;
     background-color: transparent;
     background-size: cover;
     color:var(--color-bg-variant);
- top: 280%;
-    left: 15%;
+ top: 290%;
+    left: 10%;
     transition: 300ms;
   }
   
@@ -444,8 +445,8 @@ font: bold;
     height: 19.3rem;
     position:absolute;
     color:var(--color-bg-variant);
-    top: 360%;
-    left: 20%;
+    top: 370%;
+    left: 15%;
     /* border: 1px solid red; */
     background-image:linear-gradient(
       var(--color-bg),
@@ -502,8 +503,8 @@ font: bold;
     background-color: transparent;
     background-size: cover;
     color:var(--color-bg-variant);
-    top: 350%;
-    left: 15%;
+    top: 360%;
+    left: 10%;
     transition: 300ms;
   }
   
@@ -542,8 +543,8 @@ font: bold;
     height: 19.3rem;
     position:absolute;
     color:var(--color-bg-variant);
-    top: 440%;
-    left: 20%;
+    top: 450%;
+    left: 15%;
     background-image:linear-gradient(
       transparent,
   
@@ -598,8 +599,8 @@ font: bold;
     background-color: transparent;
     background-size: cover;
     color:var(--color-bg-variant);
-    top: 430%;
-    left: 15%;
+    top: 440%;
+    left: 10%;
     transition: 300ms;
   }
   
