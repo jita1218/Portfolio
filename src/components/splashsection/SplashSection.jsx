@@ -618,7 +618,7 @@ export default function SplashSection({
 
         <canvas
           id="splash-intro"
-          className="w-[100%] mt-3"
+          className="w-[100%] mt-3 sm:mt-8 sm:w-[80%] md:w-[60%] lg:w-[50%] xl:w-[40%] 2xl:w-[30%]"
           aria-label={`Interactive particle animation that displays text ${splashMessage}`}
           role="img"
         >

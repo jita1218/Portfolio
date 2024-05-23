@@ -148,12 +148,15 @@
         padding: 1rem;
         flex: 0.7;
         align-items: center;
+        justify-items: center;
         margin: 0 auto;
         justify-content: center;
+        text-align: justify;
         color: var(--color-bg);
         border-radius: 8px;
         /* padding: 20px; */
-        width: 80%;
+        /* border: 1px solid white; */
+        width: 90%;
         background-color:var(--color-primary);
     }
     

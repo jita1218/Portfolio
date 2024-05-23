@@ -93,8 +93,8 @@ margin-left: auto;
     .skill_container{
         display: flex;
         flex-direction: column;
-        padding: 1rem;
-        width: 100%;
+        /* padding: 1rem; */
+        width: 90%;
         /* margin-left: 5rem; */
     }
     

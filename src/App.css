@@ -18,7 +18,7 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  box-sizing:content-box;
   -ms-overflow-style: none;
   scrollbar-width: none;
 
@@ -32,20 +32,24 @@
 html {
   scroll-behavior: smooth;
   overflow-x: hidden;
+  max-width: 100%;
+  
 }
 
 body {
   display: flex;
   font-family: "Poppins", sans-serif;
   margin: 0;
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
   scroll-behavior: smooth;
-  padding: 0;
+  /* padding: 0; */
+  max-width: 100%;
   background-image: url(blue.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
+  min-height: 500px;
 }
 button,
 input,

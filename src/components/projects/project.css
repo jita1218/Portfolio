@@ -360,7 +360,7 @@ font: bold;
     ),url(yoga.png);
     background-size: cover;
     color:var(--color-bg-variant);
-    top: 270%;
+    top: 290%;
     left: 20%;
    cursor: pointer;
   }
@@ -410,7 +410,7 @@ font: bold;
     background-color: transparent;
     background-size: cover;
     color:var(--color-bg-variant);
- top: 260%;
+ top: 280%;
     left: 15%;
     transition: 300ms;
   }
@@ -444,7 +444,7 @@ font: bold;
     height: 19.3rem;
     position:absolute;
     color:var(--color-bg-variant);
-    top: 340%;
+    top: 360%;
     left: 20%;
     /* border: 1px solid red; */
     background-image:linear-gradient(
@@ -502,7 +502,7 @@ font: bold;
     background-color: transparent;
     background-size: cover;
     color:var(--color-bg-variant);
-    top: 330%;
+    top: 350%;
     left: 15%;
     transition: 300ms;
   }
@@ -542,7 +542,7 @@ font: bold;
     height: 19.3rem;
     position:absolute;
     color:var(--color-bg-variant);
-    top: 420%;
+    top: 440%;
     left: 20%;
     background-image:linear-gradient(
       transparent,
@@ -598,7 +598,7 @@ font: bold;
     background-color: transparent;
     background-size: cover;
     color:var(--color-bg-variant);
-    top: 400%;
+    top: 430%;
     left: 15%;
     transition: 300ms;
   }
