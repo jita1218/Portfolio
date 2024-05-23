@@ -135,7 +135,7 @@
         /* border: 1px solid red; */
         width: 90%;
         margin: 0 auto;
-        
+
         box-sizing: content-box;
         /* height: 20%; */
 /* margin-right: 5rem; */
@@ -159,7 +159,7 @@
         /* box-sizing: content-box; */
 
         /* padding: 20px; */
-        border: 1px solid white;
+        /* border: 1px solid white; */
         /* width: 100%; */
         background-color:var(--color-primary);
     }
