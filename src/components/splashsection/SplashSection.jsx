@@ -320,7 +320,11 @@ function UseHero({ message, isDarkMode, isErrorMode }) {
           this.finalSize;
 
         if (this.finalX + 2 >= this.currX && this.finalY + 2 >= this.currY) {
-
+          if (displayCanvasPrompt.current) {
+            displayCanvasPrompt.current = false;
+            canvasPrompt.style.opacity = 1;
+            // canvasArrow.style.opacity = 1;
+        }
           this.currSize = heroCanvas.letterParticleSize;
           this.ease = Math.random() * 0.015 + 0.02; //Math.random() * 0.01 + 0.02;
           this.stage.goToNextStage();
@@ -382,15 +386,15 @@ function UseHero({ message, isDarkMode, isErrorMode }) {
         );
 
         if (isErrorMode) {
-          gradient.addColorStop(0, isDarkMode ? "#f8f8fa" : "#0f0f0f");
-          gradient.addColorStop(0.3, isDarkMode ? "#1a2b80" : "#89ddf2");
-          gradient.addColorStop(0.6, isDarkMode ? "#c56836" : "#c56836");
-          gradient.addColorStop(1, isDarkMode ? "#c56836" : "#c56836");
-        } else {
-          gradient.addColorStop(0, isDarkMode ? "#c56836" : "#c56836");
-          gradient.addColorStop(0.3, isDarkMode ? "#c56836" : "#3A66DB");
-          gradient.addColorStop(0.6, isDarkMode ? "#061178" : "#132DAD");
-          gradient.addColorStop(1, isDarkMode ? "#2251CC" : "#3A66DB");
+          gradient.addColorStop(0, isDarkMode ? '#610316' : '#AB091E');
+                    gradient.addColorStop(0.3, isDarkMode ? '#E12D39' : '#EF4E4E');
+                    gradient.addColorStop(0.6, isDarkMode ? '#610316' : '#AB091E');
+                    gradient.addColorStop(1, isDarkMode ? '#E12D39' : '#EF4E4E');
+                } else {
+                    gradient.addColorStop(0, isDarkMode ? '#eaf2f3' : '#2784c7');
+                    gradient.addColorStop(0.3, isDarkMode ? '#9093c7' : '#c3d1e5');
+                    gradient.addColorStop(0.6, isDarkMode ? '#c3d1e5' : '#2784c7');
+                    gradient.addColorStop(1, isDarkMode ? '#8fb8d6' : '#eaf2f3');
         }
 
         if (!isSkipGetFont) {
@@ -569,6 +573,9 @@ function UseHero({ message, isDarkMode, isErrorMode }) {
 
     function resetCanvas() {
 
+      displayCanvasPrompt.current = true;
+      canvasPrompt.style.opacity = 0;
+      // canvasArrow.style.opacity = 0;
 
       heroCanvas.initializeCanvas();
       globe.initializeGlobe(heroCanvas.width, heroCanvas.height);
@@ -576,7 +583,7 @@ function UseHero({ message, isDarkMode, isErrorMode }) {
       effect.setupText(true);
     }
 
-    const splashMessage = "this is jitu";
+    const splashMessage = " you re lovely jita";
     const heroCanvas = new HeroCanvas(splashMessage);
     const globe = new Globe(heroCanvas.width, heroCanvas.height);
     const effect = new Effect();

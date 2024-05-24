@@ -1,15 +1,9 @@
 .title{
     display: flex;
     justify-content: center;
-    /* border: 1px solid black ; */
-    /* text-shadow: black;/ */
     align-items: center;
-    /* margin-left: 2rem; */
     text-align: center;
-    /* margin-left: 10rem; */
-    padding: 2rem;
-    /* border: 1px solid white; */
-    
+    padding: 2rem;    
 }
 
 .qlf{

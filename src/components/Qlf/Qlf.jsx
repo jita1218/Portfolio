@@ -26,9 +26,6 @@ const Qlf = () => {
     <h3 className="vertical-timeline-element-title">
     Computer Science and Engineering</h3>
     <h4 className="vertical-timeline-element-subtitle">NIT , Silchar</h4>
-    {/* <p>
-      Creative Direction, User Experience, Visual Design, Project Management, Team Leading
-    </p> */}
   </VerticalTimelineElement>
   <VerticalTimelineElement
     className="vertical-timeline-element--work"
@@ -40,9 +37,7 @@ const Qlf = () => {
   >
     <h3 className="vertical-timeline-element-title">12th standard</h3>
     <h4 className="vertical-timeline-element-subtitle">Jaipur, Rajasthan</h4>
-    {/* <p>
-      Creative Direction, User Experience, Visual Design, SEO, Online Marketing
-    </p> */}
+
   </VerticalTimelineElement>
   <VerticalTimelineElement
     className="vertical-timeline-element--work"

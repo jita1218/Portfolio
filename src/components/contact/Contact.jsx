@@ -1,4 +1,4 @@
-import React, { useRef } from "react";
+import React, { useRef , useEffect} from "react";
 import "./contact.css";
 import { MdOutlineMail } from "react-icons/md";
 import { BiPhoneCall } from "react-icons/bi";
@@ -6,10 +6,15 @@ import { FaWhatsapp } from "react-icons/fa";
 import emailjs from "@emailjs/browser";
 import Social from "../home/social";
 import { Fade } from "react-awesome-reveal";
-// import { Tilt } from 'react-tilt'
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 
 const Contact = () => {
+  useEffect(() => {
+    Aos.init({ duration: 2000 });
+  }, []);
+
   const form = useRef();
  
   const sendEmail = (e) => {
@@ -36,19 +41,19 @@ const Contact = () => {
 
   return (<>
   <Fade>
-  <div class="devicer">
-      
-      </div>
+
     <div className="contact" id="contact">
       <div className="title">
-        <h1 className="h1">Contacts</h1>
+      <p className="impact"   data-aos="fade-down"> Get in Touch</p>
+
+        <h2 className="h2">Contacts</h2>
       </div>
 
       <div className="contact_container">
         <div className="left_contact">
           <div className="email">
             <MdOutlineMail />
-            <h4>Email</h4>
+            <p>Email</p>
             <p>jitulalita4@gmail.com</p>
             <a
               href="mailto:jitulalita4@gmail.com"
@@ -62,7 +67,7 @@ const Contact = () => {
 
           <div className="email">
             <BiPhoneCall />
-            <h4>Call</h4>
+            <p>Call</p>
             <p>not available on working hours</p>
             <a href="tel:+918003703865" 
  target="_blank" rel="noreferrer" className="details">
@@ -72,7 +77,7 @@ const Contact = () => {
           <div className="email">
             <FaWhatsapp />
 
-            <h4>Whatsapp</h4>
+            <p>Whatsapp</p>
             <p>available anytime</p>
             <a 
               href="https://wa.me/+918003703865"

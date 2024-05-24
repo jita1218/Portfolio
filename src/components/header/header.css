@@ -5,15 +5,8 @@
 
 @media screen and (max-width: 600px){
   .header {
-    /* width: 70%; */
     padding: 0 ; 
-  /* gap: 1rem; */
-  /* height: 50%; */
-  /* overflow-y: hidden; */
     display: flex;
-    /* border: 1px solid black; */
   flex-direction: column; 
 }
 }
-
-/* Styles for tablets */

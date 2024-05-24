@@ -1,13 +1,19 @@
-import React from "react";
+import React ,{useEffect} from "react";
 import "./about.css";
 import image from "./jitu.jpg";
 import Resume from "./jitu resume.pdf";
+import Aos from "aos";
+import "aos/dist/aos.css";
+
 
 const About = () => {
+  useEffect(() => {
+    Aos.init({ duration: 2000 });
+  }, []);
   return (
     <>
       <div className="about_container " id="about">
-        <div className="about_left">
+        <article className="about_left"   data-aos="fade-up" >
           <div className="left_me_container">
             <div className="left_me">
               <h1 className="home__title">Jitu Verma</h1>
@@ -23,9 +29,9 @@ const About = () => {
               Resume
             </a>
           </div>
-        </div>
+        </article>
 
-        <div className="about_right">
+        <div className="about_right"  >
           <div className="image_container">
             <img src={image} className="profile_image" alt="it's me" />
           </div>

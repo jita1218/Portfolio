@@ -1,60 +1,55 @@
 .contact {
   display: flex;
   flex-direction: column;
-  /* background-color: var(--bg-color); */
   padding-bottom: 2rem;
-  /* width: 75%;
-  margin-left: 5rem; */
   align-items: center;
+  margin: 0 auto;
+  margin-top: 5rem;
   justify-content: center;
 }
 
 .title{
     display: flex;
-    font: bold;
     color: var(--color-primary);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .contact_container {
   display: flex;
   width: 70%;
-  /* margin: 0 auto; */
-  /* margin-left: 10rem; */
-  /* border: 1px solid red; */
+  height: 100%;
+  margin: 2rem auto;
 }
 
 .right_contact {
   display: flex;
-  flex: 0.5;
+  flex: 0.6;
   border-radius: 1rem;
   align-items: center;
-  margin-right: 6rem;
-  /* border: 1px solid rgb(76, 162, 193); */
+  margin: 0 auto;
 }
 
 .left_contact {
   display: flex;
   flex-direction: column;
-  flex: 0.5;
+  flex: 0.4;
   align-items: center;
-  margin-left: 6rem;  
-
-  /* justify-content: center; */
-  width: 40%;
+ margin: 2rem auto;
 }
 
 .email {
   display: flex;
   background-color: var(--color-bg-variant);
   color: var(--color-white);
-  /* border: 1px solid black; */
   flex-direction: column;
   border-radius: 1rem;
-  padding: 7px;
-  margin-bottom: 15px;
+  padding: 1rem;
+  box-sizing: content-box;
+  gap: 3px;
+  margin-bottom: 1rem;
   align-items: center;
-    /* border: 1px solid rgb(76, 162, 193); */
-
   width: 69%;
 }
 
@@ -64,24 +59,23 @@
   cursor: pointer;
   transition: 400ms;
   transform: scale(0.25rem);
-  /* background-color: red; */
 }
 form {
   max-width: 400px;
-  margin: 0 auto;
+  margin: 2rem auto;
   border-radius: 1rem;
-  /* border: 1px solid var(--color-bg-variant); */
-  /* background-color: var(--bg-color); */
+
 }
 
 input,
 textarea {
   width: 100%;
-  padding: 10px;
+  padding: 1rem;
   color: white;
-  margin-bottom: 15px;
+  margin: 0 auto;
+  margin-bottom: 1rem;
   border-radius: 1rem;
-  box-sizing: border-box;
+  box-sizing:content-box;
   background-color: transparent;
   border: 1px solid var(--color-bg-variant);
 }
@@ -104,7 +98,6 @@ button {
   border-radius: 1rem;
   transition: 500ms;
   color: var(--color-bg-variant);
-  /* border: 1px solid black; */
   padding: 10px 15px;
   cursor: pointer;
   font-size: 16px;
@@ -117,8 +110,6 @@ button {
   margin: 0 auto;
   justify-content: center;
   align-items: center;
-  /* margin: 2rem;
-  margin-right: 3rem; */
 }
 .details{
   color: var(--color-primary) ;
@@ -144,19 +135,16 @@ button:hover {
       flex: 0.3;
       font: bold;
       margin: 0 auto;
-      /* margin-left: 9rem; */
-      /* border: 1px solid white; */
+margin-bottom: 4rem;
+
   }
 
   .contact_container {
     display: flex;
     flex-direction: column;
     flex: 0.7;
-    /* padding: 1rem; */
     margin: 0 auto;
     width: 100%;
-    /* border: 1px solid red; */
-    /* margin-left: 1rem; */
     gap: 1rem;
   }
 
@@ -178,8 +166,7 @@ button:hover {
     flex-direction: column;
     color: var(--color-primary);
     gap: 5rem;
-    /* margin: 2rem;
-    margin-right: 3rem; */
+
   }
   .left_contact {
     display: flex;
@@ -187,8 +174,6 @@ button:hover {
     flex: 0.5;
     margin: 0 auto;
     align-items: center;
-    /* margin-left: 1rem;   */
-    /* border: 1px solid red; */
     justify-content: center;
     width: 100%;
   }
@@ -198,7 +183,6 @@ button:hover {
     width: 100%;
     padding: 10px;
     margin-bottom: 15px;
-    /* color: white; */
     border-radius: 1rem;
     box-sizing: border-box;
     background-color: transparent;

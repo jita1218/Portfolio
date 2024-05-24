@@ -12,12 +12,13 @@
   --color-primary-variant: rgba(77, 181, 255, 0.4);
   --color-white: #fff;
   --color-light: rgba(255, 255, 255, 0.6);
-/* overflow: hidden; */
   --transition: all 400ms ease;
 }
 
 * {
   margin: 0;
+  --body-font: "Poppins", sans-serif;
+
   padding: 0;
   box-sizing:content-box;
   -ms-overflow-style: none;
@@ -28,6 +29,8 @@
 
 *::-webkit-scrollbar {
   display: none;
+  --body-font: "Poppins", sans-serif;
+
 
 }
 
@@ -35,7 +38,8 @@ html {
   scroll-behavior: smooth;
   overflow-x: hidden;
   max-width: 100%;
-  
+  --body-font: "Poppins", sans-serif;
+
 }
 
 body {
@@ -57,6 +61,7 @@ button,
 input,
 textarea {
   font-family: var(--body-font);
+  --body-font: "Poppins", sans-serif;
 
 }
 
@@ -76,6 +81,7 @@ button {
   cursor: pointer;
   border: none;
   outline: none;
+  --body-font: "Poppins", sans-serif;
 
 }
 
@@ -105,7 +111,6 @@ button {
   --color-primary-variant: rgba(77, 181, 255, 0.4);
   --color-white: #fff;
   --color-light: rgba(255, 255, 255, 0.6);
-/* overflow: hidden; */
   --transition: all 400ms ease;
 }
 
@@ -114,14 +119,18 @@ button {
 *::-webkit-scrollbar {
   display: none;
 overflow-x: scroll;
+--body-font: "Poppins", sans-serif;
+
 }
 
 html {
   scroll-behavior: smooth;
   overflow-x: hidden;
   max-width: 100%;
-  
+  --body-font: "Poppins", sans-serif;
+
 }
+
 
 body {
   display: flex;
@@ -129,7 +138,6 @@ body {
   margin: 0;
   overflow-x: hidden;
   scroll-behavior: smooth;
-  /* padding: 0; */
   max-width: 100%;
   background-image: url(blue.jpg);
   background-size: cover;
@@ -176,7 +184,6 @@ button {
 
 }
   * {
-    /* font-size: 0.8rem; */
     scroll-behavior: smooth;
     overflow-x: hidden;
     margin: 0;
