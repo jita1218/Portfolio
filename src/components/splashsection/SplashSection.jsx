@@ -583,7 +583,7 @@ function UseHero({ message, isDarkMode, isErrorMode }) {
       effect.setupText(true);
     }
 
-    const splashMessage = " you re lovely jita";
+    const splashMessage = " this is jita";
     const heroCanvas = new HeroCanvas(splashMessage);
     const globe = new Globe(heroCanvas.width, heroCanvas.height);
     const effect = new Effect();

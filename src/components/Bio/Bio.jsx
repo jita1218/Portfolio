@@ -11,7 +11,7 @@ const Bio = () => {
     Aos.init({ duration: 2000 });
   }, []);
   return (
-    <div className="bio_container">
+    <div className="bio_container" id="bio">
       <div className="center">
         <p className="impact"   data-aos="fade-down">Know more</p>
         <h2 className="h2">Bio Data</h2>

@@ -33,6 +33,12 @@ const Footer = () => {
             </li>
 
             <li className="footer_logo">
+                <a href="#bio" className='footer_link active-link'>
+                    Bio Data
+                </a>
+            </li>
+
+            <li className="footer_logo">
                 <a href="#contact" className='footer_link active-link'>
                     Contact
                 </a>

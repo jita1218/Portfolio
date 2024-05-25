@@ -15,7 +15,7 @@ const Projects = () => {
     
     <>
       <Fade>
-        <div className="project">
+        <div className="project" id="projects">
           <div className="cent">
             <p               data-aos="fade-down"
 className="impact">I would love to showcase some of</p>

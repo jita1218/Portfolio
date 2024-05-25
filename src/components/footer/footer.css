@@ -33,9 +33,10 @@
 @media screen and (max-width: 600px) {
   .footer {
     width: 90%;
-    margin: 0 auto;
+    margin: 1rem auto;
     justify-items: center;
     align-items: center;
+    margin-top: 2rem;
   }
   
   .footer_items{
@@ -65,8 +66,9 @@
   }
   .thank_you:hover {
     display: flex;
+    overflow:visible;
     transition: 400ms;
-    transform: scale(1.25);
+    transform: scale(1);
   }
   
   .copywrite {
