@@ -112,25 +112,25 @@ className='h_skills'>Programming Skills</h3>
 </h3 >Photography</h4>
 <p>Creative Vision</p>
             </li>
-            <li style={{marginLeft:"3rem"}}>
+            <li >
               <h4 className='h4'>
                 <h3 className='icons'><img
-          className='h2'
+          className='h3'
                     src={msIcon}
                     alt="Dancing Icon"
-                    style={{ width: '30px', height: '30px'}}  
+                    style={{ width: '20px', height: '20px'}}  
 />
 </h3>MS Office</h4>
-<p>Lyricist</p></li>
+<p>Word, Excel, PowerPoint</p></li>
      
         </ul>
         <ul className='h_left'>
           <li><h4 className='h4' >
             <h3 className='icons'> <img
-          className='h2'
+          className='h3'
                     src={dancingIcon}
                     alt="Dancing Icon"
-                    style={{ width: '30px', height: '30px' }}  
+                    style={{ width: '20px', height: '20px' }}  
                   /></h3>Dancing</h4>
           <p style={{fontSize:"14px"}}>Hip-Hop, Bollywood</p>
             
