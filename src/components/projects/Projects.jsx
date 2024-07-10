@@ -32,7 +32,7 @@ const Projects = () => {
               <a target="_blank" href="https://chatapp-ovgs.onrender.com/ " className="btn">
                 Visit Now
               </a>
-              <a target="_blank" href="https://chatapp-ovgs.onrender.com/ " className="btn" style={{color:"HighlightText"}}>
+              <a target="_blank" href="https://github.com/jita1218/chatApp.git " className="btn" style={{color:"HighlightText"}}>
                 Github
               </a>
               </div>
@@ -48,7 +48,7 @@ const Projects = () => {
               <a target="_blank" href="https://dreamkids.netlify.app/ " className="btn">
                 Visit Now
               </a>
-              <a target="_blank" href="https://chatapp-ovgs.onrender.com/ " className="btn" style={{color:"HighlightText"}}>
+              <a target="_blank" href="https://github.com/jita1218/lil_kidos.git " className="btn" style={{color:"HighlightText"}}>
                 Github
               </a>
               </div>
@@ -65,7 +65,7 @@ const Projects = () => {
               <a target="_blank" href="https://cryptoxion.netlify.app" className="btn">
                 Visit Now
               </a>
-              <a target="_blank" href="https://chatapp-ovgs.onrender.com/ " className="btn" style={{color:"HighlightText"}}>
+              <a target="_blank" href="https://github.com/jita1218/cryptox.git " className="btn" style={{color:"HighlightText"}}>
                 Github
               </a>
               </div>
@@ -81,7 +81,7 @@ const Projects = () => {
               <a target="_blank" href="https://jita1218.github.io/yoga_training_app" className="btn">
                 Visit Now
               </a>
-              <a target="_blank" href="https://chatapp-ovgs.onrender.com/ " className="btn" style={{color:"HighlightText"}}>
+              <a target="_blank" href="https://github.com/jita1218/yoga_training_app.git " className="btn" style={{color:"HighlightText"}}>
                 Github
               </a>
               </div>
