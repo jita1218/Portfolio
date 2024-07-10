@@ -8,9 +8,13 @@ import { GiMusicalNotes } from "react-icons/gi";
 import { TfiWrite } from "react-icons/tfi";
 import { FaPaintBrush } from "react-icons/fa";
 import dancingIcon from './dancing.ico';
+import msIcon from './office.ico';
 import { Fade } from "react-awesome-reveal";
 import Aos from "aos";
 import "aos/dist/aos.css";
+import { IoLogoJavascript } from "react-icons/io5";
+import { FaCss3Alt } from "react-icons/fa6";
+import { MdAddAPhoto } from "react-icons/md";
 
 const Skill = () => {
   
@@ -43,8 +47,24 @@ className='h_skills'>Programming Skills</h3>
 
           
 </li>
+<li style={{marginLeft:"2rem"}}>
+            <h4 className='h4'><h3 className='h2'><IoLogoJavascript/></h3>javascript</h4>
+            <p>Intermediate</p>
+
+</li>
+
+       
+        </ul>
+        <ul className='h_left'>
+          <li>
+         
+          <h4 className='h4'><h3 className='h2'><FaJava /></h3>java,C,python</h4>
+<p>Intermediate</p>
+
+          
+</li>
 <li>
-            <h4 className='h4'><h3 className='h2'><FaJava /></h3>python,c,java</h4>
+            <h4 className='h4'><h3 className='h2'><FaCss3Alt /></h3>BS-CSS,TW-CSS</h4>
             <p>Intermediate</p>
 
 </li>
@@ -58,8 +78,8 @@ className='h_skills'>Programming Skills</h3>
 
             <p>Intermediate</p>
             </li>
-            <li>
-              <h4 className='h4'><h3 className='h2'><FaReact /></h3>React</h4>
+            <li style={{marginLeft:"2rem"}}>
+              <h4 className='h4'><h3 className='h2'><FaReact /></h3>Mern Stack</h4>
               <p>Intermediate</p>
           
 </li>
@@ -79,9 +99,28 @@ className='h_skills'>Programming Skills</h3>
 </h3 >Singing</h4>
 <p>Vocalist</p>
             </li>
-            <li>
-              <h4 className='h4'><h3 className='h2'><TfiWrite />
+            <li style={{marginLeft:"3rem"}} >
+              <h4 className='h4'><h3 className='h2'>< TfiWrite />
 </h3>writing</h4>
+<p>Lyricist</p></li>
+     
+        </ul>
+        <ul className='h_left'>
+          <li>
+            <h4 className='h4'><h3 className='h2'>
+            <MdAddAPhoto />
+</h3 >Photography</h4>
+<p>Creative Vision</p>
+            </li>
+            <li style={{marginLeft:"3rem"}}>
+              <h4 className='h4'>
+                <h3 className='icons'><img
+          className='h2'
+                    src={msIcon}
+                    alt="Dancing Icon"
+                    style={{ width: '30px', height: '30px'}}  
+/>
+</h3>MS Office</h4>
 <p>Lyricist</p></li>
      
         </ul>
@@ -93,13 +132,13 @@ className='h_skills'>Programming Skills</h3>
                     alt="Dancing Icon"
                     style={{ width: '30px', height: '30px' }}  
                   /></h3>Dancing</h4>
-          <p>Hip-Hop, Bollywood</p>
+          <p style={{fontSize:"14px"}}>Hip-Hop, Bollywood</p>
             
            </li>
            <li>
               <h4 className='h4'><h3 className='h2'><FaPaintBrush />
 </h3>Painting</h4>
-<p>water color,wall painting</p></li>
+<p style={{fontSize:"14px"}}>water color,wall painting</p></li>
          
         </ul>
    </div>

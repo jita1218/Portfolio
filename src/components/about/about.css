@@ -103,8 +103,10 @@
 
 .home_social{
     display: flex;
-    gap: 5rem;
+    gap: 12rem;
     color: var(--color-primary);
+    justify-content: center;
+    align-items: center;
 }
 
 .home_social>a{
@@ -132,6 +134,13 @@
         margin-top: 1rem;
     }
     
+    .home_social{
+        display: flex;
+        gap: 3rem;
+        color: var(--color-primary);
+        justify-content: center;
+        align-items: center;
+    }
     .about_left{
         display: flex;
         padding: 1rem;
