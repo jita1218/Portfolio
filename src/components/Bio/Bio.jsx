@@ -18,7 +18,7 @@ const Bio = () => {
       </div>
 
       <div className="bio"   >
-        <Tilt className="data">
+        <div className="data">
           <div className="bio_first" >
             <h3>Education</h3>
           </div>
@@ -48,9 +48,9 @@ const Bio = () => {
                 </li>
                 </ul>
          
-        </Tilt>
+        </div>
 
-        <Tilt className="data">
+        <div className="data">
           <div className="bio_first">
           <h3>What else I poses</h3>
 
@@ -105,8 +105,8 @@ const Bio = () => {
                   <p>Love nature , animals and watching cartoon </p>
                 </li>
               </ul>
-        </Tilt>
-        <Tilt className="data">
+        </div>
+        <div className="data">
           <div className="bio_first">
           <h3>Extra Curricular</h3>
           </div>
@@ -148,7 +148,7 @@ const Bio = () => {
                   <p>Core member at E-cell , Dance club and music club ,NIT Silchar</p>
                 </li>
               </ul>
-        </Tilt>
+        </div>
       </div>
     </div>
   );

@@ -42,7 +42,9 @@ border-radius: 2rem;
 }
 .h4{
     display: flex;
-    /* color: black; */
+    color: whitesmoke;
+    gap: 6px;
+
 }
 .h2{
     color: var(--color-primary) ;
@@ -94,6 +96,7 @@ margin :2rem auto;
     display: flex;
     margin-right: auto;
     margin-left: auto;
+    color: white;
     text-decoration: underline;
 } 
 
@@ -107,7 +110,6 @@ margin :2rem auto;
         color: var(--color-primary) ;
         justify-content: left;
         align-items: last baseline;
-        /* border: 1px solid red; */
     }
     .second_container{
         display: flex;

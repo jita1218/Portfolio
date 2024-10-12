@@ -18,7 +18,7 @@ const About = () => {
             <div className="left_me">
               <h1 className="home__title">Jitu Verma</h1>
               <h3 className="home__subtitle">B.Tech Student</h3>
-              <p className="home__description">
+              <p className="home__description" style={{color:"black"}}>
                 I am a Computer Science and Engineering Undergraduate of NIT
                 Silchar. I am learning full stack Web development and also
                 trying to improve my problem solving skills.{" "}

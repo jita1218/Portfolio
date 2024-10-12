@@ -3,6 +3,7 @@ import "./project.css";
 import { Fade } from "react-awesome-reveal";
 import img from "./cryptoxion.png";
 import img1 from "./yoga.png";
+import img4 from "./OpenCV.png"
 import Aos from "aos";
 import img3 from "./chatapp.jpg";
 import "aos/dist/aos.css";
@@ -82,6 +83,19 @@ const Projects = () => {
                 Visit Now
               </a>
               <a target="_blank" href="https://github.com/jita1218/yoga_training_app.git " className="btn" style={{color:"HighlightText"}}>
+                Github
+              </a>
+              </div>
+            </div>
+          </div>
+          <div className="gallery1">
+            <div className="project_container"   data-aos="fade-up">
+              <img src={img4} alt="cryptoxion" className="project_image" />
+              <div className="desc">
+              A real-time hand gesture-based drawing application using Python, OpenCV, and Mediapipe
+              </div>
+              <div className="butn">
+              <a target="_blank" href="https://github.com/jita1218/airCanvas.git " className="btn" style={{color:"HighlightText"}}>
                 Github
               </a>
               </div>

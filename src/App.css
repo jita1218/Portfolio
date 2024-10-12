@@ -18,7 +18,6 @@
 * {
   margin: 0;
   --body-font: "Poppins", sans-serif;
-
   padding: 0;
   box-sizing:content-box;
   -ms-overflow-style: none;
@@ -71,7 +70,8 @@ ul {
 
 }
 
-a {
+a ,
+p{
   text-decoration: none;
   color: white;
 
