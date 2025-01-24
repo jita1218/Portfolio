@@ -164,9 +164,7 @@ const Projects = () => {
                 className="project_image"
               />
               <div className="desc">
-                Enhanced user privacy with secure OTP and password
-                authentication, leveraging MongoDB and Axios/Redux for reliable
-                data management and login persistence.
+                Added OTP and password login with MongoDB and Axios/Redux for secure and smooth data handling.
               </div>
               <div className="butn">
               <a
