@@ -15,6 +15,7 @@ import "aos/dist/aos.css";
 import { IoLogoJavascript } from "react-icons/io5";
 import { FaCss3Alt } from "react-icons/fa6";
 import { MdAddAPhoto } from "react-icons/md";
+import { FaNetworkWired } from 'react-icons/fa'; 
 
 const Skill = () => {
   
@@ -58,13 +59,13 @@ className='h_skills'>Programming Skills</h3>
         <ul className='h_left'>
           <li>
          
-          <h4 className='h4'><h3 className='h2'><FaJava /></h3>java,C,python</h4>
+          <h4 className='h4'><h3 className='h2'><FaJava /></h3>java,C++,python</h4>
 <p>Intermediate</p>
 
           
 </li>
 <li>
-            <h4 className='h4'><h3 className='h2'><FaCss3Alt /></h3>BS-CSS,TW-CSS</h4>
+            <h4 className='h4'><h3 className='h2'><FaNetworkWired /></h3>TCP/IP</h4>
             <p>Intermediate</p>
 
 </li>

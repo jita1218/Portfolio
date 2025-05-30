@@ -7,7 +7,7 @@ import Contact from './components/contact/Contact';
 import Footer from './components/footer/Footer';
 import Bio from './components/Bio/Bio';
 import Projects from './components/projects/Projects';
-
+import Collab from './collab/Collab';
 
 
 const App = () => {
@@ -19,7 +19,7 @@ const App = () => {
     <Skill/>
     <Projects/>
     <Bio/>
-
+    <Collab/>
     <Contact/>
     <Footer/>
     </>

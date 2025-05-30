@@ -19,10 +19,7 @@ const About = () => {
               <h1 className="home__title">Jitu Verma</h1>
               <h3 className="home__subtitle">B.Tech Student</h3>
               <p className="home__description" style={{color:"black"}}>
-                I am a Computer Science and Engineering Undergraduate of NIT
-                Silchar. I am learning full stack Web development and also
-                trying to improve my problem solving skills.{" "}
-              </p>
+I am a full-stack developer with a passion for building dynamic and efficient digital solutions. Beyond code, I express my creativity through dance and singing, bringing rhythm and artistry into every aspect of life. Explore my work below!                 </p>
             </div>
             
             <a target="_blank" href={Resume} className="say_hello">
