@@ -583,8 +583,8 @@ function UseHero({ message, isDarkMode, isErrorMode }) {
       effect.setupText(true);
     }
 
-    const splashMessage = " this is jitu";
-    const heroCanvas = new HeroCanvas(splashMessage);
+const splashMessage = "This is Jitu crafting code into creativity";  
+  const heroCanvas = new HeroCanvas(splashMessage);
     const globe = new Globe(heroCanvas.width, heroCanvas.height);
     const effect = new Effect();
     let timeoutReset;

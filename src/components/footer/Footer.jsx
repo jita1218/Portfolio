@@ -37,7 +37,11 @@ const Footer = () => {
                     Bio Data
                 </a>
             </li>
-
+  <li className="footer_logo">
+                <a href="#collab" className='footer_link active-link'>
+                    Collaboration
+                </a>
+            </li>
             <li className="footer_logo">
                 <a href="#contact" className='footer_link active-link'>
                     Contact

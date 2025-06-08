@@ -8,7 +8,7 @@ import { Fade } from "react-awesome-reveal";
 
 import img from "./cryptoxion.png";
 import img1 from "./yoga.png";
-import img4 from "./OpenCV.png";
+import img4 from "./airDraw.png";
 import img3 from "./chatapp.jpg";
 import img2 from "./dreamkids.png";
 import img5 from "./dress.png";
@@ -142,13 +142,20 @@ const Projects = () => {
             <div className="project_container" data-aos="fade-up-right">
               <img src={img4} alt="cryptoxion" className="project_image" />
               <div className="desc">
-                A real-time hand gesture-based drawing application using Python,
-                OpenCV, and Mediapipe
+                A real-time air drawing app using hand gestures, built with
+                 Python, OpenCV, MediaPipe, and a Flask-powered web frontend.
               </div>
               <div className="butn">
                 <a
                   target="_blank"
-                  href="https://github.com/jita1218/airCanvas.git "
+                  href="https://youtu.be/NwHQXyfXrZ0"
+                  className="btn"
+                >
+                  Visit Now
+                </a>
+                <a
+                  target="_blank"
+                  href="https://github.com/jita1218/hand-canvas.git"
                   className="btn"
                   style={{ color: "HighlightText" }}
                 >
