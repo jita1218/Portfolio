@@ -1,7 +1,7 @@
 import React ,{useEffect} from "react";
 import "./about.css";
 import image from "./jitu.jpg";
-import Resume from "./jitu resume.pdf";
+import Resume from "./jitu's resume.pdf";
 import Aos from "aos";
 import "aos/dist/aos.css";
 

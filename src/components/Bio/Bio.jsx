@@ -116,6 +116,10 @@ const Bio = () => {
               >
                 <li className="li">
                   <BsCheck2 className="bio__list_icon" />
+                  <p>Selected as Campus Ambassador and Contributor for GirlScript Summer of Code 2025 (GSSoC'25).</p>
+                </li>
+                <li className="li">
+                  <BsCheck2 className="bio__list_icon" />
                   <p>Completed the <a href="https://yourlink.com" target="_blank" rel="noopener noreferrer" style={{color:"Highlight"}}>
        Google Cloud Study Jam
     </a> </p>
